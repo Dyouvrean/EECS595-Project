@@ -15,8 +15,8 @@ class TextMaskingDataset(Dataset):
     def read_file(self, file):
         with open(file, encoding='utf-8') as f:
             corpus = [line.strip("\n") for line in f.readlines()]
-        return corpus
-
+        return corpus[:10]
+   
     def mask_sentence(self, sentence):
         print(sentence)
         words = sentence.split()
@@ -25,7 +25,7 @@ class TextMaskingDataset(Dataset):
         indice = []
         origin=[]
         for index,word in enumerate(words):
-            word = word.strip(",.!;:\n\t")
+            word = word.strip(",.!;: \n\t")
             if index == idx:
                 masked_words.append(self.mask_token)
                 indice.append(True)
@@ -33,6 +33,7 @@ class TextMaskingDataset(Dataset):
                 masked_words.append(word)
                 indice.append(False)
             origin.append(word)
+        masked_words.append("please reconstruct the sentence by filling the mask")
         return " ".join(masked_words), " ".join(origin), indice
 
     def __len__(self):
@@ -41,17 +42,20 @@ class TextMaskingDataset(Dataset):
     def __getitem__(self, idx):
         sentence = self.corpus[idx]
         masked_sentence,origin, mask_indice = self.mask_sentence(sentence)
-        masked = self.tokenizer(masked_sentence, return_tensors="pt")
-        origin = self.tokenizer(origin, return_tensors="pt")
+        masked = self.tokenizer(masked_sentence, return_tensors="pt",padding=True, truncation=True)
+        origin = self.tokenizer(origin, return_tensors="pt",padding=True, truncation=True)
         return masked, origin, mask_indice
+    
+    
+    
 
 
 
 
-tokenizer = AutoTokenizer.from_pretrained("bert-base-cased")
-# # Example usage
-dataset = TextMaskingDataset(file_path="ARC_Corpus.txt",tokenizer= tokenizer)[1]
-print(dataset)
+# tokenizer = AutoTokenizer.from_pretrained("bert-base-cased")
+# # # Example usage
+# dataset = TextMaskingDataset(file_path="ARC_Corpus.txt",tokenizer= tokenizer)[1]
+# print(dataset)
 # dataloader = DataLoader(dataset, batch_size=4, shuffle=False,collate_fn=collate_fn)
 # for i, batch in enumerate(dataloader):
 #     print(batch)
