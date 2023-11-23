@@ -36,8 +36,20 @@ def tokenize_function(examples, tokenizer):
     return tokenized_examples
 
 
+def convert(dataset):
+    labels = dataset['answerKey']
+    res = []
+    for label in labels:
+        if label not in ['A', 'B', 'C', 'D','E']:
+            res.append(int(label)-1)
+        else:
+            res.append(ord(label) - 65)
+    dataset['answerKey'] = torch.tensor(res)
+    return dataset
+
+
 # dataset = load_dataset("ai2_arc", 'ARC-Challenge')
-# tokenized_datasets = dataset.map(tokenize_function, batched=True)
+# tokenized_datasets = dataset.map(convert_label, batched=True)
 
 
 # train_dataloader = DataLoader(tokenized_datasets["train"], batch_size=batch_size)
