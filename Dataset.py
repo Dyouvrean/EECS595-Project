@@ -16,7 +16,8 @@ model = GPT2Model.from_pretrained('gpt2')
 batch_size = 8
 
 
-def tokenize_function(examples):
+
+def tokenize_function(examples, tokenizer):
     first_sentences = [[context] for context in examples["question"]]
     second_sentences = [i['text'] for i in examples["choices"]]
     label = [i['label'] for i in examples["choices"]]
@@ -35,27 +36,27 @@ def tokenize_function(examples):
     return tokenized_examples
 
 
-dataset = load_dataset("ai2_arc", 'ARC-Challenge')
-tokenized_datasets = dataset.map(tokenize_function, batched=True)
+# dataset = load_dataset("ai2_arc", 'ARC-Challenge')
+# tokenized_datasets = dataset.map(tokenize_function, batched=True)
 
 
-train_dataloader = DataLoader(tokenized_datasets["train"], batch_size=batch_size)
-eval_dataloader = DataLoader(tokenized_datasets["validation"], batch_size=batch_size)
-test_dataloader = DataLoader(tokenized_datasets["test"], batch_size=batch_size)
+# train_dataloader = DataLoader(tokenized_datasets["train"], batch_size=batch_size)
+# eval_dataloader = DataLoader(tokenized_datasets["validation"], batch_size=batch_size)
+# test_dataloader = DataLoader(tokenized_datasets["test"], batch_size=batch_size)
 
-# Assuming tokenized_datasets is already prepared and contains the required features
+# # Assuming tokenized_datasets is already prepared and contains the required features
 
-# Create DataLoader for the 'train' split
-# Iterate over each batch and feed it to the model
-outputs = []
-for batch in train_dataloader:
-    # Prepare input tensors. You might need to adjust keys based on your dataset.
-    batch = tokenizer.pad(batch,padding= True,return_tensors="pt")
-    inputs = {key: value for key, value in batch.items() if key in ['input_ids', 'attention_mask']}
+# # Create DataLoader for the 'train' split
+# # Iterate over each batch and feed it to the model
+# outputs = []
+# for batch in train_dataloader:
+#     # Prepare input tensors. You might need to adjust keys based on your dataset.
+#     batch = tokenizer.pad(batch,padding= True,return_tensors="pt")
+#     inputs = {key: value for key, value in batch.items() if key in ['input_ids', 'attention_mask']}
 
-    # Forward pass
-    output = model(**inputs)
-    outputs.append(output)
-    # process the output as needed
+#     # Forward pass
+#     output = model(**inputs)
+#     outputs.append(output)
+#     # process the output as needed
 
 
