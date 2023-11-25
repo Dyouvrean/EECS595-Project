@@ -4,3 +4,4 @@ model_weights
 BART Model Set Up modify.ipynb
 sample corpus.txt
 path
+ARC_corpus.csv
