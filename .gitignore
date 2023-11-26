@@ -8,3 +8,5 @@ ARC_corpus.csv
 commonsenseQA/dev_rand_split.jsonl
 commonsenseQA/test_rand_split_no_answers.jsonl
 commonsenseQA/train_rand_split.jsonl
+1.5k_complete1.csv
+1.5k_complete2.csv
