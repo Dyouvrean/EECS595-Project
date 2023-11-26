@@ -5,3 +5,6 @@ BART Model Set Up modify.ipynb
 sample corpus.txt
 path
 ARC_corpus.csv
+commonsenseQA/dev_rand_split.jsonl
+commonsenseQA/test_rand_split_no_answers.jsonl
+commonsenseQA/train_rand_split.jsonl
