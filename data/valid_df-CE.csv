@@ -1,0 +1,1639 @@
+Input,Label
+"Conversation:
+B: 'Hi, um, okay what, now, uh, what particularly, particularly what kind of music do you like?'
+A: 'Well, I mostly listen to popular music.  I, uh, listen to it all the time in, in my car, so, I, I tend to be one of those people who switches stations a lot because I don't like commercials.  But,'
+B: 'Yeah.'
+A: 'uh, I find myself listening to popular music, and, uh, quite honestly, I, I have some little children and I, unfortunately, found myself listening to a lot of nursery rhyme music here lately, but that's not by my choice.'
+Hypothesis: 'SpeakerA likes popular music'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: True. Type: belief.
+"Conversation:
+B: 'Hi, um, okay what, now, uh, what particularly, particularly what kind of music do you like?'
+A: 'Well, I mostly listen to popular music.  I, uh, listen to it all the time in, in my car, so, I, I tend to be one of those people who switches stations a lot because I don't like commercials.  But,'
+B: 'Yeah.'
+A: 'uh, I find myself listening to popular music, and, uh, quite honestly, I, I have some little children and I, unfortunately, found myself listening to a lot of nursery rhyme music here lately, but that's not by my choice.'
+Hypothesis: 'SpeakerB wants to know what kind of music SpeakerA likes'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: True. Type: intent.
+"Conversation:
+B: 'Hi, um, okay what, now, uh, what particularly, particularly what kind of music do you like?'
+A: 'Well, I mostly listen to popular music.  I, uh, listen to it all the time in, in my car, so, I, I tend to be one of those people who switches stations a lot because I don't like commercials.  But,'
+B: 'Yeah.'
+A: 'uh, I find myself listening to popular music, and, uh, quite honestly, I, I have some little children and I, unfortunately, found myself listening to a lot of nursery rhyme music here lately, but that's not by my choice.'
+Hypothesis: 'SpeakerB switches music stations in the car'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: False. Type: fact.
+"Conversation:
+B: 'Uh, uh, however, I, I do, I do like a lot of different forms of music so I switch quite often.  Um, I think I like, I, I'm really particular about the type of music that I listen to.'
+A: 'Uh-huh.'
+B: 'But, the, uh, there's such a wide selection, I think I like a lot, I like a little bit of a lot of different types of music.  You know, I, I, I like music that is, that I feel if it is performed correctly or if it's done right, or if the version is done right, I like it [laughter],'
+Hypothesis: 'SpeakerB likes a lot of different music'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: True. Type: belief.
+"Conversation:
+B: 'Uh, uh, however, I, I do, I do like a lot of different forms of music so I switch quite often.  Um, I think I like, I, I'm really particular about the type of music that I listen to.'
+A: 'Uh-huh.'
+B: 'But, the, uh, there's such a wide selection, I think I like a lot, I like a little bit of a lot of different types of music.  You know, I, I, I like music that is, that I feel if it is performed correctly or if it's done right, or if the version is done right, I like it [laughter],'
+Hypothesis: 'SpeakerB likes music that is performed correctly'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: True. Type: belief.
+"Conversation:
+B: 'Yeah.  Well, I, I don't really have anything against rap music.  I, the one thing I do object to about rap music is, is when it becomes militant,'
+A: 'Uh-huh.'
+B: 'or, if it's, uh, violence oriented.'
+Hypothesis: 'SpeakerB doesn't like music that is militant'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: True. Type: belief.
+"Conversation:
+B: 'Yeah.  Well, I, I don't really have anything against rap music.  I, the one thing I do object to about rap music is, is when it becomes militant,'
+A: 'Uh-huh.'
+B: 'or, if it's, uh, violence oriented.'
+Hypothesis: 'SpeakerB thinks SpeakerA is militant'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: False. Type: belief.
+"Conversation:
+B: 'Yeah.  Well, I, I don't really have anything against rap music.  I, the one thing I do object to about rap music is, is when it becomes militant,'
+A: 'Uh-huh.'
+B: 'or, if it's, uh, violence oriented.'
+Hypothesis: 'SpeakerA likes music that is violence oriented'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: False. Type: belief.
+"Conversation:
+B: 'And, uh, it was about, the, the piece of music, the piece of music was about, I think about forty or fifty years old.  And, it was incredible, I mean, the parallel, you know, between it and rap.'
+A: 'Right.'
+B: 'And, um, you, you listen a lot, if you, if you hear a lot of old gospel, uh, uh, especially well, the black gospel.  You know, you will, you know, you can really pick it up.  I mean,'
+Hypothesis: 'SpeakerA and SpeakerB agree that there is a parallel between it and rap'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: True. Type: intent.
+"Conversation:
+B: 'And, uh, it was about, the, the piece of music, the piece of music was about, I think about forty or fifty years old.  And, it was incredible, I mean, the parallel, you know, between it and rap.'
+A: 'Right.'
+B: 'And, um, you, you listen a lot, if you, if you hear a lot of old gospel, uh, uh, especially well, the black gospel.  You know, you will, you know, you can really pick it up.  I mean,'
+Hypothesis: 'SpeakerA thinks that SpeakerB listens to a lot of black gospel'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: False. Type: belief.
+"Conversation:
+A: 'Yeah, you really.  It seemed to be influenced by a lot of different music. A lot of times you'll hear songs that you know, they're not original,'
+B: 'Yeah.'
+A: 'but have been put to a rap kind of a rhythm.  And, uh, sounds, it sounds so much different and yet, I, I have a much younger sister who listens to a lot of rap music and, uh, she thinks its pretty funny how often I know all of the words to songs that she's listening to, and yet,'
+B: 'Yeah.'
+A: 'she thought they were brand new,'
+B: 'Yeah.'
+A: 'original pieces.'
+Hypothesis: 'SpeakerA believes that original music is sometimes put to a rap rhythm'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: True. Type: fact.
+"Conversation:
+A: 'Yeah, you really.  It seemed to be influenced by a lot of different music. A lot of times you'll hear songs that you know, they're not original,'
+B: 'Yeah.'
+A: 'but have been put to a rap kind of a rhythm.  And, uh, sounds, it sounds so much different and yet, I, I have a much younger sister who listens to a lot of rap music and, uh, she thinks its pretty funny how often I know all of the words to songs that she's listening to, and yet,'
+B: 'Yeah.'
+A: 'she thought they were brand new,'
+B: 'Yeah.'
+A: 'original pieces.'
+Hypothesis: 'SpeakerA has a sister'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: True. Type: fact.
+"Conversation:
+A: 'Yeah, you really.  It seemed to be influenced by a lot of different music. A lot of times you'll hear songs that you know, they're not original,'
+B: 'Yeah.'
+A: 'but have been put to a rap kind of a rhythm.  And, uh, sounds, it sounds so much different and yet, I, I have a much younger sister who listens to a lot of rap music and, uh, she thinks its pretty funny how often I know all of the words to songs that she's listening to, and yet,'
+B: 'Yeah.'
+A: 'she thought they were brand new,'
+B: 'Yeah.'
+A: 'original pieces.'
+Hypothesis: 'SpeakerB thinks SpeakerA is married'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: False. Type: fact.
+"Conversation:
+A: 'Yeah, you really.  It seemed to be influenced by a lot of different music. A lot of times you'll hear songs that you know, they're not original,'
+B: 'Yeah.'
+A: 'but have been put to a rap kind of a rhythm.  And, uh, sounds, it sounds so much different and yet, I, I have a much younger sister who listens to a lot of rap music and, uh, she thinks its pretty funny how often I know all of the words to songs that she's listening to, and yet,'
+B: 'Yeah.'
+A: 'she thought they were brand new,'
+B: 'Yeah.'
+A: 'original pieces.'
+Hypothesis: 'SpeakerB and SpeakerA agree on everything'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: False. Type: intent.
+"Conversation:
+A: 'from him to use it.  And, he, he since then has, has amended that, and paid them his royalties every time the, the song goes on but,'
+B: 'Yeah.  I don't know it may have, it may have been somebody else, because I think, I think that even Jimi Hendrix did it, I think that was a cov-, you know, come to think of it, I think that was a cover version of, like a John Lee Hooker song, or something,'
+Hypothesis: 'SpeakerB thinks John Lee Hooker was a cover song'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: False. Type: fact.
+"Conversation:
+A: 'from him to use it.  And, he, he since then has, has amended that, and paid them his royalties every time the, the song goes on but,'
+B: 'Yeah.  I don't know it may have, it may have been somebody else, because I think, I think that even Jimi Hendrix did it, I think that was a cov-, you know, come to think of it, I think that was a cover version of, like a John Lee Hooker song, or something,'
+Hypothesis: 'SpeakerA is going to pay royalties on the song'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: False. Type: desire.
+"Conversation:
+A: 'from him to use it.  And, he, he since then has, has amended that, and paid them his royalties every time the, the song goes on but,'
+B: 'Yeah.  I don't know it may have, it may have been somebody else, because I think, I think that even Jimi Hendrix did it, I think that was a cov-, you know, come to think of it, I think that was a cover version of, like a John Lee Hooker song, or something,'
+Hypothesis: 'SpeakerB thinks Jimi Hendrix may have covered it'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: True. Type: fact.
+"Conversation:
+B: 'I mean I, I, there are a lot, there are so many different songs, I mean like the whole thing about cover versions a lot of times.  I mean I've heard some songs that, that I just thought were horrendous cover versions of, I'm like, you know, I, I don't want to listen to this.'
+Hypothesis: 'SpeakerB thinks there are a lot of different songs out there'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: True. Type: belief.
+"Conversation:
+B: 'I mean I, I, there are a lot, there are so many different songs, I mean like the whole thing about cover versions a lot of times.  I mean I've heard some songs that, that I just thought were horrendous cover versions of, I'm like, you know, I, I don't want to listen to this.'
+Hypothesis: 'SpeakerB has heard cover versions of songs that were bad'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: True. Type: belief.
+"Conversation:
+B: 'I mean I, I, there are a lot, there are so many different songs, I mean like the whole thing about cover versions a lot of times.  I mean I've heard some songs that, that I just thought were horrendous cover versions of, I'm like, you know, I, I don't want to listen to this.'
+Hypothesis: 'SpeakerB doesn't like cover versions'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: False. Type: belief.
+"Conversation:
+B: '[Laughter] Because you know, you think of the original is like, you know, oh, that was really great.  That was a, you know, a really good piece of work, and then when you hear the cover it's like, you know, God, what are they doing.'
+A: 'Right. They destroyed it.'
+B: '[Laughter] I, I think a good one was, um, there was a Peter Frampton song,'
+Hypothesis: 'SpeakerB likes originals'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: True. Type: belief.
+"Conversation:
+B: '[Laughter] Because you know, you think of the original is like, you know, oh, that was really great.  That was a, you know, a really good piece of work, and then when you hear the cover it's like, you know, God, what are they doing.'
+A: 'Right. They destroyed it.'
+B: '[Laughter] I, I think a good one was, um, there was a Peter Frampton song,'
+Hypothesis: 'SpeakerA listens to Peter Frampton songs'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: False. Type: fact.
+"Conversation:
+B: 'Yeah, but you know, whatever became of Peter Frampton.  I mean, there was nothing, he was a phenomenon, I me-, there was no reason for him to really come into, you know, great stardom or anything.'
+A: 'I remember, I saw him in a concert, when I was,'
+Hypothesis: 'SpeakerB doesn't know what became of Peter Frampton'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: True. Type: fact.
+"Conversation:
+B: 'Yeah, but you know, whatever became of Peter Frampton.  I mean, there was nothing, he was a phenomenon, I me-, there was no reason for him to really come into, you know, great stardom or anything.'
+A: 'I remember, I saw him in a concert, when I was,'
+Hypothesis: 'SpeakerA saw Peter Frampton in concert'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: True. Type: fact.
+"Conversation:
+B: 'Yeah, but you know, whatever became of Peter Frampton.  I mean, there was nothing, he was a phenomenon, I me-, there was no reason for him to really come into, you know, great stardom or anything.'
+A: 'I remember, I saw him in a concert, when I was,'
+Hypothesis: 'SpeakerB wants to go to a Peter Frampton concert with SpeakerA'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: False. Type: desire.
+"Conversation:
+A: 'And, uh, I have, particularly enjoy the English comedies,'
+Hypothesis: 'SpeakerA does not enjoy English comedies.'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: False. Type: belief.
+"Conversation:
+B: 'Yeah, I watch mysteries too.  Is that what you're referring to?'
+Hypothesis: 'SpeakerB does not watch mysteries.'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: False. Type: fact.
+"Conversation:
+B: 'Did you stay up late and catch this RED DWARF?'
+A: 'No [sigh],'
+Hypothesis: 'SpeakerA stayed up to watch Red Dwarf.'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: False. Type: fact.
+"Conversation:
+B: 'I used to like him too, he was my hero.  In fact, I like Sean Connery to this day.'
+Hypothesis: 'SpeakerB likes Sean Connery.'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: True. Type: belief.
+"Conversation:
+A: 'Well, they're showing uh, LIVE AND LET DIE at this moment,'
+B: 'Yeah.'
+A: 'and, it is the first appearance of Roger Moore as double oh seven.'
+Hypothesis: 'Live and Let Die is Roger Moore's first appearance as double oh seven.'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: True. Type: fact.
+"Conversation:
+A: 'Whereas, uh, Sean Connery has maintained the, uh, how would you, uh, ruddy look, but uh,'
+B: 'Uh-huh, yeah.  I liked his accent too.'
+A: 'Oh yes.'
+B: 'And, he can even be in movies that are not, uh, uh, sexually oriented, and he still comes off great.'
+A: 'Well, you know he was, when was it, last year or year before last, he was voted the sexiest actor in movies,'
+Hypothesis: 'Sean Connery was voted the sexiest actor in movies.'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: True. Type: fact.
+"Conversation:
+A: 'Whereas, uh, Sean Connery has maintained the, uh, how would you, uh, ruddy look, but uh,'
+B: 'Uh-huh, yeah.  I liked his accent too.'
+A: 'Oh yes.'
+B: 'And, he can even be in movies that are not, uh, uh, sexually oriented, and he still comes off great.'
+A: 'Well, you know he was, when was it, last year or year before last, he was voted the sexiest actor in movies,'
+B: 'He is.'
+A: 'or something.'
+B: 'Yeah, he had my vote double [laughter].'
+A: '[Laughter] I mean the man is sixty-two years old.'
+Hypothesis: 'Sean Connery is sixty-two years old.'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: True. Type: fact.
+"Conversation:
+B: 'Right, I, I've seen it several times.  It's a scream, but I have to go to bed, I have to get up and, and work the next morning.'
+Hypothesis: 'SpeakerB does not have work the next morning.'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: False. Type: fact.
+"Conversation:
+B: 'I wish they'd put those, that's why I say, did you stay up late to watch this RED DWARF.  It came on after DOCTOR WHO,'
+Hypothesis: 'Doctor Who came on after Red Dwarf.'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: False. Type: fact.
+"Conversation:
+A: 'Yeah, I know.  Well I, I, I'm not much of a television watcher.  I, I read as I said,'
+B: 'Uh-huh.'
+A: 'and, uh, quite a bit.  I read about two or three novels a week,'
+Hypothesis: 'SpeakerA does not read frequently.'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: False. Type: fact.
+"Conversation:
+A: 'in addition to all the technical stuff.  What, what do you do?  What kind of work do you do?'
+B: 'I'm a Payroll Clerk.  Just an accounting clerk.'
+Hypothesis: 'SpeakerB works as a payroll clerk.'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: True. Type: fact.
+"Conversation:
+B: 'here in, I'm from Dallas.'
+Hypothesis: 'SpeakerB is not from Dallas.'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: False. Type: fact.
+"Conversation:
+B: 'Yeah, really.  Do you work for T I?'
+A: 'No, no, I work for G T E.'
+Hypothesis: 'SpeakerA works for T I.'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: False. Type: fact.
+"Conversation:
+A: 'In Maryland, yes.'
+Hypothesis: 'SpeakerA works in Maryland.'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: True. Type: fact.
+"Conversation:
+A: 'How did I hear about it?  Well I work, you know, they are gathering a data base for voice processing.'
+B: 'Uh-huh.'
+A: 'And, that's my field of work also.'
+Hypothesis: 'SpeakerA does not work in voice processing.'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: False. Type: fact.
+"Conversation:
+A: 'So I, I know the people at T I who are doing this and I heard about it, so I called them and asked if I could participate.  And, uh,'
+Hypothesis: 'SpeakerA does not know people at T I'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: False. Type: fact.
+"Conversation:
+A: 'Uh, I, I think what they are trying to say, is that there is a great deal of historical truth, but the interpretation that actually got into the writing of the Bible itself is probably [sigh] uh, after the what, uh, was is it the King James Version when the committee did it, [cough] wrote the translation, that so much was lost in the translation, particularly since most of the translations were in Greek.'
+Hypothesis: 'Much of the Bible was lost in translation.'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: True. Type: belief.
+"Conversation:
+A: 'Well, for example.  In Greek there are seven different words for love.'
+Hypothesis: 'There are more than seven different words for love in greek.'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: False. Type: fact.
+"Conversation:
+B: '-- with high tech weaponry, you know, I mean, the Iraqis didn't have a lot of high-tech weaponry, but they had mortars and machine guns,'
+A: 'Oh, yeah.'
+B: 'tanks and all that.'
+A: 'Sure.'
+Hypothesis: 'SpeakerA agrees with SpeakerB that the Iraqis don't have a lot of hi-tech weaponry'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: True. Type: intent.
+"Conversation:
+B: '-- with high tech weaponry, you know, I mean, the Iraqis didn't have a lot of high-tech weaponry, but they had mortars and machine guns,'
+A: 'Oh, yeah.'
+B: 'tanks and all that.'
+A: 'Sure.'
+Hypothesis: 'Iraqis don't have very much hi-tech weaponry'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: True. Type: belief.
+"Conversation:
+B: '-- with high tech weaponry, you know, I mean, the Iraqis didn't have a lot of high-tech weaponry, but they had mortars and machine guns,'
+A: 'Oh, yeah.'
+B: 'tanks and all that.'
+A: 'Sure.'
+Hypothesis: 'SpeakerA doesn't think the Iraqis have mortars and machine guns'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: False. Type: fact.
+"Conversation:
+B: 'Well, I formulated a pretty radical theory over the last ten years, I guess.  And, I've come to the conclusion, and this is a pretty scary thought to me, even, that if a guy is convicted, or a gal is convicted, of a crime, rather than put them in prison, because prison's proven not to work, just let them go.  Say okay, you're convicted --'
+Hypothesis: 'SpeakerB is ten years old'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: False. Type: fact.
+"Conversation:
+B: 'Well, I formulated a pretty radical theory over the last ten years, I guess.  And, I've come to the conclusion, and this is a pretty scary thought to me, even, that if a guy is convicted, or a gal is convicted, of a crime, rather than put them in prison, because prison's proven not to work, just let them go.  Say okay, you're convicted --'
+Hypothesis: 'SpeakerB does not want people to go to prison'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: True. Type: desire.
+"Conversation:
+B: 'And they're still let out on the street after one or two years.  Well, in Washington State, if you're a habitual sexual offender, they just don't let you out.'
+A: 'Um.'
+B: 'So you serve your prison term, and then you go into the mental hospital, and if you're pronounced cured, they'll let you go.'
+Hypothesis: 'SpeakerA thinks that in Washington State they don't just let habitual sex offenders out'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: False. Type: belief.
+"Conversation:
+B: 'And they're still let out on the street after one or two years.  Well, in Washington State, if you're a habitual sexual offender, they just don't let you out.'
+A: 'Um.'
+B: 'So you serve your prison term, and then you go into the mental hospital, and if you're pronounced cured, they'll let you go.'
+Hypothesis: 'SpeakerB agrees with SpeakerA's statement on Washington State.'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: False. Type: intent.
+"Conversation:
+B: 'And they're still let out on the street after one or two years.  Well, in Washington State, if you're a habitual sexual offender, they just don't let you out.'
+A: 'Um.'
+B: 'So you serve your prison term, and then you go into the mental hospital, and if you're pronounced cured, they'll let you go.'
+Hypothesis: 'SpeakerB has been a sex offender 45 times'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: False. Type: fact.
+"Conversation:
+B: 'And, you can put a collar around a guys leg that will prohibit them from committing any kind of prohibitive act.'
+A: 'Huh-uh.'
+B: 'But, you know, putting them in prison, my God, that doesn't work.'
+Hypothesis: 'SpeakerB believes that putting people in prison doesn't work'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: True. Type: belief.
+"Conversation:
+B: 'And, you can put a collar around a guys leg that will prohibit them from committing any kind of prohibitive act.'
+A: 'Huh-uh.'
+B: 'But, you know, putting them in prison, my God, that doesn't work.'
+Hypothesis: 'SpeakerA wants to prevent people from committing any kind of prohibitive act'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: False. Type: desire.
+"Conversation:
+B: 'Well, you look at places like Turkey. Turkey has the death penalty,'
+A: 'Huh-uh.'
+B: 'for just about everything.'
+A: 'Huh-uh.'
+B: 'I mean, if you get convicted of, uh, you know, drug trafficking, they just kill you.  You get convicted of, uh, you know, heinous crimes, they just kill you.  I mean there's no two ways about it.'
+Hypothesis: 'SpeakerB believes that in turkey they'll give you the death penalty for drug trafficking'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: True. Type: fact.
+"Conversation:
+B: 'Well, you look at places like Turkey. Turkey has the death penalty,'
+A: 'Huh-uh.'
+B: 'for just about everything.'
+A: 'Huh-uh.'
+B: 'I mean, if you get convicted of, uh, you know, drug trafficking, they just kill you.  You get convicted of, uh, you know, heinous crimes, they just kill you.  I mean there's no two ways about it.'
+Hypothesis: 'SpeakerB has committed two heinous crimes'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: False. Type: fact.
+"Conversation:
+B: 'You know, the way to stop that kind of behavior is, is two-fold.  One, you need to make it illegal for both parents to work while the kids are under seven.  I, I think that's very important.'
+A: 'Oh, I'm, I agree very much so on that, I, yeah.'
+Hypothesis: 'SpeakerA agrees with SpeakerB's point from line 76'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: True. Type: intent.
+"Conversation:
+B: 'You know, the way to stop that kind of behavior is, is two-fold.  One, you need to make it illegal for both parents to work while the kids are under seven.  I, I think that's very important.'
+A: 'Oh, I'm, I agree very much so on that, I, yeah.'
+Hypothesis: 'SpeakerB wants to stop a certain kind of behavior for good'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: True. Type: desire.
+"Conversation:
+B: 'And then, if a parent has proved to be unfit, for any reason --'
+A: 'Huh-uh.'
+B: '-- take the kids away from the parents.'
+Hypothesis: 'SpeakerB would like to take kids away from parents that have been proven unfit'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: True. Type: desire.
+"Conversation:
+B: 'And then, if a parent has proved to be unfit, for any reason --'
+A: 'Huh-uh.'
+B: '-- take the kids away from the parents.'
+Hypothesis: 'SpeakerB wants to take SpeakerA's kids away'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: False. Type: desire.
+"Conversation:
+B: 'We have just a bunch of people, and I've, and I've, I've lived in that, that environment for quite a few years when I was doing construction work. You know, and these guys, they come to work every morning and they're stoned to the bone. I mean, their so high, they could fly up to the top of that building and they work all day, and they go home and they smoke their dope and drink their booze and shoot their drugs and when they run out of money, they go down to the corner store and pop the guy on the head and take his money, and then they go back to work on Monday.'
+Hypothesis: 'SpeakerB has worked construction in the past'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: True. Type: fact.
+"Conversation:
+B: 'We have just a bunch of people, and I've, and I've, I've lived in that, that environment for quite a few years when I was doing construction work. You know, and these guys, they come to work every morning and they're stoned to the bone. I mean, their so high, they could fly up to the top of that building and they work all day, and they go home and they smoke their dope and drink their booze and shoot their drugs and when they run out of money, they go down to the corner store and pop the guy on the head and take his money, and then they go back to work on Monday.'
+Hypothesis: 'SpeakerB often goes to work stoned'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: False. Type: fact.
+"Conversation:
+B: 'We have just a bunch of people, and I've, and I've, I've lived in that, that environment for quite a few years when I was doing construction work. You know, and these guys, they come to work every morning and they're stoned to the bone. I mean, their so high, they could fly up to the top of that building and they work all day, and they go home and they smoke their dope and drink their booze and shoot their drugs and when they run out of money, they go down to the corner store and pop the guy on the head and take his money, and then they go back to work on Monday.'
+Hypothesis: 'SpeakerA and SpeakerB agree that these people should go to prison'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: False. Type: intent.
+"Conversation:
+A: 'Oh, I know.  I know, um, I work in school.  You know, that's something I do and I, it really is ((I'm like you)) astonishing what the younger ages know, and they react to what they see at home.  You know.'
+B: 'Huh-uh.'
+A: 'If they see violence at home, that's what you're going to get from the kids at school.'
+B: 'Exactly.'
+Hypothesis: 'SpeakerA believes that if kids see violence at home, that's what they're going to do at school'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: True. Type: belief.
+"Conversation:
+A: 'Oh, I know.  I know, um, I work in school.  You know, that's something I do and I, it really is ((I'm like you)) astonishing what the younger ages know, and they react to what they see at home.  You know.'
+B: 'Huh-uh.'
+A: 'If they see violence at home, that's what you're going to get from the kids at school.'
+B: 'Exactly.'
+Hypothesis: 'SpeakerB agrees with SpeakerA that kids will emulate violence'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: True. Type: intent.
+"Conversation:
+A: 'Oh, I know.  I know, um, I work in school.  You know, that's something I do and I, it really is ((I'm like you)) astonishing what the younger ages know, and they react to what they see at home.  You know.'
+B: 'Huh-uh.'
+A: 'If they see violence at home, that's what you're going to get from the kids at school.'
+B: 'Exactly.'
+Hypothesis: 'SpeakerA thinks SpeakerB is violent'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: False. Type: belief.
+"Conversation:
+B: 'Um, I don't know if I'm really afraid of spending too much.  I just, uh, don't think that I need them, you know.  I, uh, they are tempting at times,'
+A: '[Laughter].'
+B: 'but I, I just, you know, sometimes I just don't like everybody knowing everything about me, you know, so,'
+Hypothesis: 'SpeakerA doesn't like to use a credit card'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: False. Type: belief.
+"Conversation:
+B: 'Um, I don't know if I'm really afraid of spending too much.  I just, uh, don't think that I need them, you know.  I, uh, they are tempting at times,'
+A: '[Laughter].'
+B: 'but I, I just, you know, sometimes I just don't like everybody knowing everything about me, you know, so,'
+Hypothesis: 'SpeakerB doesn't want SpeakerA to know anything about him'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: False. Type: desire.
+"Conversation:
+B: 'Um, I don't know if I'm really afraid of spending too much.  I just, uh, don't think that I need them, you know.  I, uh, they are tempting at times,'
+A: '[Laughter].'
+B: 'but I, I just, you know, sometimes I just don't like everybody knowing everything about me, you know, so,'
+Hypothesis: 'SpeakerB doesn't want his personal information known by a lot of people'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: True. Type: desire.
+"Conversation:
+A: 'I use mine a great deal, um, for groceries, for everything that I can and,'
+B: 'Uh-huh.'
+A: 'then just write one check at the end of the month,'
+Hypothesis: 'SpeakerA uses a credit card for groceries'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: True. Type: fact.
+"Conversation:
+A: 'I use mine a great deal, um, for groceries, for everything that I can and,'
+B: 'Uh-huh.'
+A: 'then just write one check at the end of the month,'
+Hypothesis: 'SpeakerA pays his/her credit card using a check'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: True. Type: fact.
+"Conversation:
+A: 'I use mine a great deal, um, for groceries, for everything that I can and,'
+B: 'Uh-huh.'
+A: 'then just write one check at the end of the month,'
+Hypothesis: 'SpeakerA does grocery shopping'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: True. Type: fact.
+"Conversation:
+A: 'I use mine a great deal, um, for groceries, for everything that I can and,'
+B: 'Uh-huh.'
+A: 'then just write one check at the end of the month,'
+Hypothesis: 'SpeakerA doesn't use a credit card very often'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: False. Type: fact.
+"Conversation:
+A: 'Great.  How old are they?'
+B: '(( )) um, four and two and half.'
+A: 'Oh, boy.  Those are two very active ages [laughter].'
+Hypothesis: 'SpeakerB has children'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: True. Type: fact.
+"Conversation:
+A: 'Great.  How old are they?'
+B: '(( )) um, four and two and half.'
+A: 'Oh, boy.  Those are two very active ages [laughter].'
+Hypothesis: 'SpeakerA thinks that the ages two and a half and four are active ages for children'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: True. Type: belief.
+"Conversation:
+A: 'Great.  How old are they?'
+B: '(( )) um, four and two and half.'
+A: 'Oh, boy.  Those are two very active ages [laughter].'
+Hypothesis: 'SpeakerB uses four credit cards'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: False. Type: fact.
+"Conversation:
+B: '[Laughter]  Yes.  So, yeah, um, I'm, I'm like you I, I use my, only use my credit card for, um, you know, when I, you know, I just use it whenever I feel like I don't want to write a check, and then, but I don't charge anything that I can't payoff at the end of the month.'
+Hypothesis: 'SpeakerB uses his/her credit card when he/she doesn't want to write a check'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: True. Type: fact.
+"Conversation:
+B: '[Laughter]  Yes.  So, yeah, um, I'm, I'm like you I, I use my, only use my credit card for, um, you know, when I, you know, I just use it whenever I feel like I don't want to write a check, and then, but I don't charge anything that I can't payoff at the end of the month.'
+Hypothesis: 'SpeakerB frequently overcharges his/her credit card'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: False. Type: fact.
+"Conversation:
+B: '[Laughter]  Yes.  So, yeah, um, I'm, I'm like you I, I use my, only use my credit card for, um, you know, when I, you know, I just use it whenever I feel like I don't want to write a check, and then, but I don't charge anything that I can't payoff at the end of the month.'
+Hypothesis: 'SpeakerB uses his/her credit card monthly'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: False. Type: fact.
+"Conversation:
+B: 'No, I never do.  My husband does at work just to get cash out, but, uh, I take the checkbook so I, you know, I, just, if I need cash, I just tell him and he gets it out and I don't even think I know my number [laughter].'
+A: '[Laughter]  Well, I find it a great use from the standpoint that you don't have to continue to write checks,'
+Hypothesis: 'SpeakerB is married'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: True. Type: fact.
+"Conversation:
+B: 'No, I never do.  My husband does at work just to get cash out, but, uh, I take the checkbook so I, you know, I, just, if I need cash, I just tell him and he gets it out and I don't even think I know my number [laughter].'
+A: '[Laughter]  Well, I find it a great use from the standpoint that you don't have to continue to write checks,'
+Hypothesis: 'SpeakerA likes the convenience of credit cards'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: True. Type: belief.
+"Conversation:
+B: 'No, I never do.  My husband does at work just to get cash out, but, uh, I take the checkbook so I, you know, I, just, if I need cash, I just tell him and he gets it out and I don't even think I know my number [laughter].'
+A: '[Laughter]  Well, I find it a great use from the standpoint that you don't have to continue to write checks,'
+Hypothesis: 'SpeakerA is single'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: False. Type: fact.
+"Conversation:
+A: 'Well the, the other thing some people are not aware of, is they will use their A, their credit card like their Visa or their MasterCard for cash --'
+B: 'Uh-huh.'
+A: '-- and when they do that, they begin paying interest right from that very day on.'
+Hypothesis: 'SpeakerA thinks most peope are unaware of some credit card policies'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: True. Type: belief.
+"Conversation:
+A: 'Well the, the other thing some people are not aware of, is they will use their A, their credit card like their Visa or their MasterCard for cash --'
+B: 'Uh-huh.'
+A: '-- and when they do that, they begin paying interest right from that very day on.'
+Hypothesis: 'SpeakerA owns a mastercard'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: False. Type: fact.
+"Conversation:
+B: 'People, t-, you know, sending me a credit card or calling me on the phone and I just say I don't want it.'
+Hypothesis: 'SpeakerB doesn't like to get credit cards in the mail'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: True. Type: belief.
+"Conversation:
+B: 'People, t-, you know, sending me a credit card or calling me on the phone and I just say I don't want it.'
+Hypothesis: 'SpeakerB owns a phone'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: True. Type: fact.
+"Conversation:
+B: 'I'd like to know where they determine that I'm such a good credit risk that they can go and say, you get this much credit line.  You know.'
+A: 'Well, i-,'
+B: 'You've already been preapproved.'
+Hypothesis: 'SpeakerB wishes he/she knew the credit card companies sources'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: True. Type: desire.
+"Conversation:
+B: 'I'd like to know where they determine that I'm such a good credit risk that they can go and say, you get this much credit line.  You know.'
+A: 'Well, i-,'
+B: 'You've already been preapproved.'
+Hypothesis: 'SpeakerB has been preapporved for a credit card before'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: True. Type: fact.
+"Conversation:
+B: 'I'd like to know where they determine that I'm such a good credit risk that they can go and say, you get this much credit line.  You know.'
+A: 'Well, i-,'
+B: 'You've already been preapproved.'
+Hypothesis: 'SpeakerA is a credit risk'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: False. Type: belief.
+"Conversation:
+B: 'I'd like to know where they determine that I'm such a good credit risk that they can go and say, you get this much credit line.  You know.'
+A: 'Well, i-,'
+B: 'You've already been preapproved.'
+Hypothesis: 'SpeakerA agrees that SpeakerB is preapproved'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: False. Type: intent.
+"Conversation:
+B: 'And, then, some people they get so wrapped up in them that they find, you know, one day they find, wow, I didn't realize I had this much,'
+A: 'That much stuff.'
+B: 'you know, I'd spent this much money.'
+Hypothesis: 'SpeakerB thinks that people get caught by credit that they didn't remember they spent'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: True. Type: belief.
+"Conversation:
+B: 'And, then, some people they get so wrapped up in them that they find, you know, one day they find, wow, I didn't realize I had this much,'
+A: 'That much stuff.'
+B: 'you know, I'd spent this much money.'
+Hypothesis: 'SpeakerB spends a lot of money'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: False. Type: belief.
+"Conversation:
+B: 'And, then, some people they get so wrapped up in them that they find, you know, one day they find, wow, I didn't realize I had this much,'
+A: 'That much stuff.'
+B: 'you know, I'd spent this much money.'
+Hypothesis: 'SpeakerB has a lot of credit cards'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: False. Type: fact.
+"Conversation:
+B: 'Well, uh, the hobbies that I pursue in my spare time, are crafts and, uh, I've been involved in making, uh, hat stands and, uh, rag dolls and, uh, different type hats with, uh, flowers and roses, you know, and, uh, that kind of thing, straw hats and,'
+Hypothesis: 'SpeakerB has hobbies that he pursues in time other then spare time'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: False. Type: fact.
+"Conversation:
+B: 'Well, uh, the hobbies that I pursue in my spare time, are crafts and, uh, I've been involved in making, uh, hat stands and, uh, rag dolls and, uh, different type hats with, uh, flowers and roses, you know, and, uh, that kind of thing, straw hats and,'
+Hypothesis: 'SpeakerB has been involved in making straw hats'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: True. Type: fact.
+"Conversation:
+B: 'all that kind of stuff.  And I enjoy it, it's relaxing.  And you kind of get absorbed in it so the time goes by, you know, before you realize anything is going on.  And I play the organ sometimes, uh, just for my own satisfaction.  [laughter].  Not for anybody else's ears because I'm not that good at it, but I like to bang on the keyboards once in a while.'
+Hypothesis: 'No one else can hear SpeakerB play the organ'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: False. Type: fact.
+"Conversation:
+B: 'all that kind of stuff.  And I enjoy it, it's relaxing.  And you kind of get absorbed in it so the time goes by, you know, before you realize anything is going on.  And I play the organ sometimes, uh, just for my own satisfaction.  [laughter].  Not for anybody else's ears because I'm not that good at it, but I like to bang on the keyboards once in a while.'
+Hypothesis: 'SpeakerB does not play the Organ for anyone else'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: True. Type: fact.
+"Conversation:
+B: 'Well, uh, the hobbies that I pursue in my spare time, are crafts and, uh, I've been involved in making, uh, hat stands and, uh, rag dolls and, uh, different type hats with, uh, flowers and roses, you know, and, uh, that kind of thing, straw hats and,'
+A: 'Oh {Sounds like typing noises in background}.'
+B: 'all that kind of stuff.  And I enjoy it, it's relaxing.  And you kind of get absorbed in it so the time goes by, you know, before you realize anything is going on.  And I play the organ sometimes, uh, just for my own satisfaction.  [laughter].  Not for anybody else's ears because I'm not that good at it, but I like to bang on the keyboards once in a while.'
+Hypothesis: 'SpeakerB thinks that crafts are relaxing'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: True. Type: belief.
+"Conversation:
+A: 'Well, oh, hobbies, gee whiz, I guess I got too many hobbies so I never have time to deal with them.'
+Hypothesis: 'SpeakerA has lots of hobbies'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: True. Type: belief.
+"Conversation:
+A: 'uh, I used to do that a lot and then I like, um, we have a new child that will be a year old here next week, so I'll take a lot of pictures of her,'
+Hypothesis: 'SpeakerB has a child that SpeakerA will take pictures of'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: False. Type: desire.
+"Conversation:
+A: 'uh, I used to do that a lot and then I like, um, we have a new child that will be a year old here next week, so I'll take a lot of pictures of her,'
+Hypothesis: 'SpeakerA will take a lot of pictures of his child'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: True. Type: desire.
+"Conversation:
+A: 'you know, and spoil them, first one, you know how that is.  And, um, [throatclearing] uh, I play the guitar and a banjo.  I mainly play the guitar a lot, I play about every night.  And, um, I really love that, if I had a ((druther)), if I could have, if I could make it on the road, I'd like to play on like a bluegrass band or something, because that's, I've,'
+B: 'Oh, that sounds nice.  I like bluegrass, too.'
+Hypothesis: 'SpeakerB wants to play in a bluegrass band'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: False. Type: desire.
+"Conversation:
+A: 'yeah, I've done it before and when I was in hi-, in high school and college,'
+B: 'Uh-huh.'
+Hypothesis: 'SpeakerB did bluegrass while in high school'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: False. Type: fact.
+"Conversation:
+A: 'and thoroughly enjoyed it, and it's really a, a blast.  My wife hates it, but that's the way life is, I guess.'
+Hypothesis: 'SpeakerA's wife hates bluegrass'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: True. Type: fact.
+"Conversation:
+A: 'and we did aerobics together for about a month and a half and that went over real well,'
+B: 'Uh-huh.'
+A: 'but, uh, that's about it there.'
+B: 'Oh, it's good and it's healthy, too.'
+Hypothesis: 'Only doing aerobics together is good and healthy'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: False. Type: belief.
+"Conversation:
+A: 'and we did aerobics together for about a month and a half and that went over real well,'
+B: 'Uh-huh.'
+A: 'but, uh, that's about it there.'
+B: 'Oh, it's good and it's healthy, too.'
+A: 'Oh, yeah, yeah.'
+Hypothesis: 'SpeakerA agrees with SpeakerB that aerobics is healthy'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: True. Type: intent.
+"Conversation:
+B: 'And we like movies, that ki-, yeah.'
+A: 'Yeah, that's, uh, spare time, with a child it's, kind of stra-, she's, we have, uh, we're looking for a baby-sitter so we've been out twice in o-, in this year so far.'
+Hypothesis: 'SpeakerA and SpeakerB like movies'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: False. Type: belief.
+"Conversation:
+A: 'Um, hobbies, I like, messing around in your house building things, and, you know,'
+Hypothesis: 'Building things messes up your house'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: False. Type: belief.
+"Conversation:
+B: 'Yeah, we did some remodeling when we bought a house, we built, put a kitchen in and, um, that kind of stuff, and painting and some wallpapering, that's fun.'
+Hypothesis: 'SpeakerB put a kitchen when he bought a house'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: True. Type: fact.
+"Conversation:
+B: 'Yeah, exactly.  I like things that, you know, two people can do, but I like the quiet of doing things away, you know, kind of gives you some space for yourself, and that's what I find in making the dolls and things, that it gives me something that I can create, and I like to crochet and knit.  I made some afghans and that kind of stuff.  I like doing things with my hands.'
+Hypothesis: 'SpeakerB has a lot of hobbies that are solitary'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: True. Type: fact.
+"Conversation:
+A: 'Yeah, I love to cook, too, I'm, uh,'
+B: 'Italian food [laughter].'
+Hypothesis: 'SpeakerA likes to cook Italian food'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: False. Type: belief.
+"Conversation:
+A: 'Do you like to cook?'
+B: 'Yes, I love to cook.'
+A: 'Yeah, I love to cook, too, I'm, uh,'
+B: 'Italian food [laughter].'
+Hypothesis: 'SpeakerB likes to cook Italian food'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: True. Type: belief.
+"Conversation:
+B: 'Do you do barbecues?'
+A: 'Yes, #we sure do, smoke them an-,#'
+B: '#Well, uh, uh, smoking and# all that stuff?'
+A: 'Oh, yeah, all that hoedown stuff.'
+B: 'Yeah, yep,'
+Hypothesis: 'SpeakerB does barbecues'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: False. Type: fact.
+"Conversation:
+B: 'and, uh, worked in the Abilene plant, and we used to go to Joe Allen's Barbecue, and, uh, oh, that was great.'
+Hypothesis: 'SpeakerB used to go to Joe Allen's barbecue'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: True. Type: fact.
+"Conversation:
+B: 'and, uh, worked in the Abilene plant, and we used to go to Joe Allen's Barbecue, and, uh, oh, that was great.'
+A: 'Oh, yeah.'
+B: 'Really great,'
+A: 'That's, uh,'
+B: 'they have some nice stuff down there.'
+A: 'only way to do it.'
+B: 'I miss it [laughter].'
+Hypothesis: 'SpeakerB misses Abilene'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: True. Type: desire.
+"Conversation:
+A: 'but, you know, seems like there's just so many things to do down here, I like the sports, I play a lot of racquetball.'
+B: 'We did, (( )) I did horseback riding, too, in fact, when my children were growing up, we always had horses and, uh, that was kind of for them, but they weren't as interested in it as we were, you know, so, uh, that was a real, I'd say probably for maybe fifteen years, we dabbled in that, you know, we always had horses around, and I really enjoyed that,'
+Hypothesis: 'SpeakerB plays racquetball'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: False. Type: fact.
+"Conversation:
+B: 'We did, (( )) I did horseback riding, too, in fact, when my children were growing up, we always had horses and, uh, that was kind of for them, but they weren't as interested in it as we were, you know, so, uh, that was a real, I'd say probably for maybe fifteen years, we dabbled in that, you know, we always had horses around, and I really enjoyed that,'
+Hypothesis: 'SpeakerB enjoyed the fact that he had horses around'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: True. Type: belief.
+"Conversation:
+B: 'and I was disappointed when I went to Texas.  I didn't see that many of them.'
+A: 'Horses?'
+B: 'Yes [laughter].'
+A: 'Yeah, you really don't.  Yeah, th-, the, you have to look real hard to see a lot of things besides concrete, uh,'
+Hypothesis: 'SpeakerA has to look real hard to see horses in Texas'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: True. Type: belief.
+"Conversation:
+A: 'I guess, um, I'm going to school while I'm working at T I, so there's not a whole a lot of time that I've got, uh, for hobbies it seems like lately.  But one of the things that I do when I've got some spare time is I do some woodworking.  And that, oh, I guess, ranges anywhere from, uh, carpentry work to, um, um, some types of furniture and, um, oh, I don't know what you would call them, knickknacks, I guess, stuff you hang on the wall to put a mirror on and I made some, um, candle sconces that you hang on the ...'
+Hypothesis: 'SpeakerA's only hobby is carpentry'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: False. Type: fact.
+"Conversation:
+A: 'I guess, um, I'm going to school while I'm working at T I, so there's not a whole a lot of time that I've got, uh, for hobbies it seems like lately.  But one of the things that I do when I've got some spare time is I do some woodworking.  And that, oh, I guess, ranges anywhere from, uh, carpentry work to, um, um, some types of furniture and, um, oh, I don't know what you would call them, knickknacks, I guess, stuff you hang on the wall to put a mirror on and I made some, um, candle sconces that you hang on the ...'
+Hypothesis: 'SpeakerA works for T I'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: True. Type: fact.
+"Conversation:
+A: 'Yeah, because it's, it's out there.  You know I don't have to worry about getting stuff on the carpet except when I track in saw dust, and the wife gets kind of aggravated about that, but then, I get the opportunity to vacuum, so I guess I get some of both.  What are some of your things you like to do?'
+Hypothesis: 'SpeakerA vacuums up dust he brings in from carpentry.'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: True. Type: fact.
+"Conversation:
+A: 'Yeah, because it's, it's out there.  You know I don't have to worry about getting stuff on the carpet except when I track in saw dust, and the wife gets kind of aggravated about that, but then, I get the opportunity to vacuum, so I guess I get some of both.  What are some of your things you like to do?'
+Hypothesis: 'SpeakerA's wife gets aggravated when SpeakerA tracks in sawdust'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: True. Type: fact.
+"Conversation:
+B: 'So, a lot of times I'd help her with that.  I haven't had much opportunity to work on any other craft stuff lately we've been trying to start up a business and then trying to get my garden going.'
+Hypothesis: 'SpeakerB has not worked much on crafts lately'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: True. Type: belief.
+"Conversation:
+A: 'Yeah, it's a good time for gardening.'
+B: 'Oh, yeah, it's been beautiful this last week but,'
+Hypothesis: 'SpeakerB agrees with SpeakerA that it's a good time for gardening'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: True. Type: intent.
+"Conversation:
+A: 'Do you find you do most of your, your, uh, crocheting or your knit work around Christmas time?'
+B: 'I usually start in the fall.'
+A: 'Yeah.'
+Hypothesis: 'SpeakerA does crocheting in the fall'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: False. Type: fact.
+"Conversation:
+A: 'I know it seems like, she, I think she made three this year one for, uh, my father-in-law and then a couple of brothers and sisters.  So, those things they take some time to make.'
+Hypothesis: 'SpeakerA's wife made an afghan for SpeakerA's father'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: False. Type: fact.
+"Conversation:
+A: 'Well, I'm not sure what she does I, I, first thing that comes to mind is some kind of chain stitch because she starts and goes all the way across, you know, back and forth until she winds up with this big piece of, of afghan.  I guess that is your standard knitting, isn't it?'
+Hypothesis: 'SpeakerA's wife stitches back and forth'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: True. Type: fact.
+"Conversation:
+B: 'If we have a problem with our connection and get disconnected some time or other, don't worry about it.  We have a, a very small phone company down here.'
+Hypothesis: 'There often are disconnections because the phone company who provides service is very small.'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: True. Type: belief.
+"Conversation:
+A: 'Oh, okay.'
+B: 'And [cough] my husband says that's called rinky-dink [laughter].'
+A: 'Instead of call waiting or call anything else.'
+Hypothesis: 'SpeakerA doesn't have  call waiting'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: False. Type: fact.
+"Conversation:
+B: 'Yeah, well, it gets a little aggravating.  I've got kids all over the United States and, and, you know, sometimes they get disconnected when I'm talking to them.'
+Hypothesis: 'SpeakerB has kids all over the United States'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: True. Type: fact.
+"Conversation:
+B: 'Uh, what else did I get in there, and jalapeno peppers.'
+A: 'Oh, yeah, always got to have those.'
+Hypothesis: 'SpeakerA believes that jalapeno peppers are needed in a garden'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: True. Type: belief.
+"Conversation:
+A: 'I think I had four, uh, jalapeno plants last year. I think one of them died, but I, I've got, s-, I've put them, I chop them up and put them in jars and usually give them away because I, there is no way that I can eat all of those nobody else in the family likes them, but always got to the keep those planted.'
+Hypothesis: 'There must be jalapeno plants in a garden'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: False. Type: belief.
+"Conversation:
+A: 'I think I had four, uh, jalapeno plants last year. I think one of them died, but I, I've got, s-, I've put them, I chop them up and put them in jars and usually give them away because I, there is no way that I can eat all of those nobody else in the family likes them, but always got to the keep those planted.'
+Hypothesis: 'SpeakerA is the only person in his household that eats jalapenos'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: True. Type: fact.
+"Conversation:
+A: 'I think I had four, uh, jalapeno plants last year. I think one of them died, but I, I've got, s-, I've put them, I chop them up and put them in jars and usually give them away because I, there is no way that I can eat all of those nobody else in the family likes them, but always got to the keep those planted.'
+B: 'Yeah, oh, my husband doesn't like them either, but I can always give them away.'
+Hypothesis: 'SpeakerB's husband doesn't like jalapenos'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: True. Type: fact.
+"Conversation:
+A: 'I think I had four, uh, jalapeno plants last year. I think one of them died, but I, I've got, s-, I've put them, I chop them up and put them in jars and usually give them away because I, there is no way that I can eat all of those nobody else in the family likes them, but always got to the keep those planted.'
+B: 'Yeah, oh, my husband doesn't like them either, but I can always give them away.'
+A: 'Well, that's kind of the way I am, um.'
+B: '#Besides they're fun to grow.#'
+Hypothesis: 'SpeakerB thinks that jalapenos are fun to grow'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: True. Type: belief.
+"Conversation:
+A: '#I planted, uh, zucchini# last year.  Uh, I planted four hills of them.  I think I had three or four seeds in each one of them, and those things just flat took over.  Um, it wasn't until late, I guess in the summer, maybe it was because it was too dry, they finally started making zucchini, and I'm not sure when a good time to plant those is, if they should be planted early or later.  It seems like all I got was,'
+Hypothesis: 'The plants produced zucchini in the summer'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: True. Type: fact.
+"Conversation:
+A: '#I planted, uh, zucchini# last year.  Uh, I planted four hills of them.  I think I had three or four seeds in each one of them, and those things just flat took over.  Um, it wasn't until late, I guess in the summer, maybe it was because it was too dry, they finally started making zucchini, and I'm not sure when a good time to plant those is, if they should be planted early or later.  It seems like all I got was,'
+Hypothesis: 'SpeakerA thinks that a good time to plant zucchini is early'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: False. Type: belief.
+"Conversation:
+A: 'I would think so, um, seems like these all, they all went to, uh, to leaf, and it wasn't until late in the summer they started making fruit.  So, I don't know if I, Mom would say you planted them in the wrong sign of the moon.'
+Hypothesis: 'According to SpeakerA's mom, SpeakerB planted in the wrong sign of the moon'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: True. Type: belief.
+"Conversation:
+A: 'I would think so, um, seems like these all, they all went to, uh, to leaf, and it wasn't until late in the summer they started making fruit.  So, I don't know if I, Mom would say you planted them in the wrong sign of the moon.'
+Hypothesis: 'SpeakerA says that he planted zucchini in the wrong sign of the moon'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: False. Type: belief.
+"Conversation:
+A: 'You know, but I don't, I hadn't looked at a farmers almanac to find out when a good time for zucchini is.'
+Hypothesis: 'A farmer's almanac contains information on planting'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: True. Type: fact.
+"Conversation:
+B: 'About the same time that you plant okra because it's supposed to be warm.'
+A: 'Well, that's true.  Most of the okra that is growing around higher is, is, uh, later okra.'
+Hypothesis: 'SpeakerA agrees with SpeakerB that zucchini is planted the same time as okra'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: True. Type: intent.
+"Conversation:
+A: 'Which it's an all new cast, but kind of the same idea, going out to new places and, and doing new things and finding out about different people, and I've, I've always liked that show probably the very best.'
+B: 'Uh-huh.  I think I've actually seen a number of STAR TREKS, one way or another over the years.  Uh, although I never watched it regularly.  I'm certainly acquainted with the character --'
+Hypothesis: 'SpeakerB likes STAR TREKS as much as SpeakerA does.'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: False. Type: belief.
+"Conversation:
+B: '-- the characters.  And then I've seen some of the STAR TREK movies.'
+A: 'Yeah, those, the movies are good too.'
+Hypothesis: 'Both SpeakerA and SpeakerB watched STAR TREK movies.'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: True. Type: fact.
+"Conversation:
+B: 'And uh, I just decided I had to do that.  I think, in part because it was easy for me to become addicted to it, I mean I could just sit mindlessly in front of a T V set for hours.'
+A: 'Uh.'
+B: 'And I just realized, I was sort of like an alcoholic, if I didn't get the booze out of the house, I was going to drink.'
+Hypothesis: 'SpeakerB was addicted to drinking.'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: False. Type: belief.
+"Conversation:
+B: 'And I just realized, I was sort of like an alcoholic, if I didn't get the booze out of the house, I was going to drink.'
+A: 'Oh.'
+B: 'So.'
+A: 'I guess I haven't ever had any trouble with that.  I have more or less, I have my favorite shows and I usually make time in my day or my week, you know, to watch those.'
+Hypothesis: 'Unlike SpeakerB, SpeakerA manage's his time on TV shows well.'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: True. Type: belief.
+"Conversation:
+B: 'Yeah, little, with little kids the T V set really is a, I mean I used it as a pacifier.'
+Hypothesis: 'A pacifier is a kind of TV.'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: False. Type: fact.
+"Conversation:
+A: 'Let's see, how about, uh, MAN FROM UNCLE?'
+B: 'I do seem to reme-, is that the one where they, uh, he always got this, this tape recording that self-destructed?'
+A: 'That's MISSION IMPOSSIBLE.'
+Hypothesis: 'the tape recording is related to MISSION IMPOSSIBLE.'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: True. Type: fact.
+"Conversation:
+B: 'Uh, MISSION, that's right, MISSION IMPOSSIBLE.  Yeah, I used to watch that. In fact, I can still remember a couple of those.  They were, I thought those were very good.'
+A: 'Yeah, they always have, I've, I've seen some of them on repeats.'
+Hypothesis: 'There are quite some repetition plots in MISSION IMPOSSIBLE.'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: False. Type: belief.
+"Conversation:
+B: 'Well, I don't know, was there any, I remember the MILTON BERLE SHOW even, I was,'
+A: 'Ye-, I'm not old enough to recall that one [laughter].'
+B: 'I was, well I guess, I have to admit that I am [laughter].'
+Hypothesis: 'SpeakerB is older than SpeakerA.'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: True. Type: fact.
+"Conversation:
+A: 'My T V viewing started sort of mid-sixties, so.'
+B: 'I see.'
+A: 'My folks didn't, my folks, I'm not even sure if we had one when I was really little.  That may be why, bu-, they probably didn't have a T V until I got to be, you know, grade school or so.'
+B: 'Yeah.'
+A: 'And the shows that I like now, they wouldn't let me watch.  I had to catch them all on repeats.  Like STAR TREK, they thought that was much too violent for small children. So [laughter],'
+Hypothesis: 'At mid-sixties, SpeakerA was a small child.'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: True. Type: fact.
+"Conversation:
+A: 'And the shows that I like now, they wouldn't let me watch.  I had to catch them all on repeats.  Like STAR TREK, they thought that was much too violent for small children. So [laughter],'
+Hypothesis: 'STAR TREK is a little violent. It is suitable for children.'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: False. Type: belief.
+"Conversation:
+B: 'Yeah.  That's, that's interesting.  Uh, I think it's interesting that parents think that their small children learn violence from TV, people were just as violent before T V was invented, maybe even more so.'
+Hypothesis: 'SpeakerB think that children learn violence from TV.'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: False. Type: belief.
+"Conversation:
+A: 'Uh, just about any kind of music except acid rock [static],'
+Hypothesis: 'SpeakerA does not like acid rock'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: True. Type: belief.
+"Conversation:
+A: '[Laughter] But, uh, I, did you happen to see last night the special on Channel Two with James Galway?'
+B: 'We don't get Channel Two.  My,'
+A: 'Oh.'
+B: 'uh, our cable doesn't, I wish we got that what, but,'
+A: 'That is fabulous.'
+B: 'Was it?  Well,'
+A: 'We,'
+B: 'we don't get Channel Two.'
+A: 'Yeah, when he played DANNY BOY it just almost brought,'
+Hypothesis: 'SpeakerA played DANNY BOY'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: False. Type: fact.
+"Conversation:
+A: 'Yeah.'
+B: 'his, his mus-, he, he, he's from Ireland isn't he?'
+Hypothesis: 'SpeakerB thinks his parents have some of Eddy Arnold's records'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: False. Type: fact.
+"Conversation:
+A: 'I've always wished my parents [laughter] had forced me to learn the piano or something,'
+Hypothesis: 'SpeakerA was forced to learn the piano'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: False. Type: belief.
+"Conversation:
+A: 'Well, like I say the acid rock, I just do not ca-, an I don't care for rap music either.'
+B: 'Oh, go-, that's not music [laughter],'
+A: 'Uh-huh, no.'
+B: 'that is not, I don't know what that is, but that's not music [laughter].'
+A: 'If I can't understand the words I don't want to listen to it.'
+B: 'Well, it's, it's, it's not, it's not music, it's just, it's just, uh, uh, talking in a beat, it is just,'
+A: 'Yeah.'
+B: 'it's not exciting at all it doesn't,'
+A: 'Yeah.'
+B: 'it doesn't give you relaxation, you can't dance to it, you can't do anything to it [laughter].'
+Hypothesis: 'SpeakerA believes one can not dance to rap music'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: False. Type: belief.
+"Conversation:
+B: '[Breathing] Have you ever been to the, to, to the Dallas Symphony?'
+A: 'Uh-huh.'
+Hypothesis: 'SpeakerA has not been to the Dallas Symphony'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: False. Type: fact.
+"Conversation:
+A: 'Uh, that was the one with Mickey Rooney and, uh, oh, what's that real, oh, not real old, my wife she is old too,'
+B: '[Laughter].'
+A: 'dancer, uh, I can't think of her name.  I got it right on the tip of my tongue and can't say it, Helen something.'
+B: 'Uh, uh, uh, I think I know who you're ta-, oh, I know who you're talking about,'
+A: 'real long legs,'
+B: 'she's got black hair,'
+A: 'and dark hair.'
+Hypothesis: 'SpeakerB believes that SpeakerA's wife has dark hair'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: False. Type: fact.
+"Conversation:
+A: 'Of course, there's not a whole lot of market for seventy-eight R P M records.'
+B: 'Is there not?  You, you'd, well you'd think there would be.'
+A: 'Well, the problem is most of the record players now will not play them because,'
+B: 'Well, that's true.'
+A: 'you have to have that needle, that, uh, particular kind of needle --'
+B: 'Oh, yeah.'
+A: '-- and, uh, they,'
+B: '[Breathing].'
+A: 'just won't play on a modern day, uh --'
+B: 'Well, that's a shame --'
+A: '-- phonograph.'
+B: '-- [Sniffing] because I, I, we go to antique stores a lot and you see seventy-eights,'
+A: 'Yeah.'
+B: 'a, a lot at, at the stores, a-, a-, at record stores, you'd,'
+A: 'Yeah.'
+B: 'think there'd be a market for, I'm, I'm sure you could find old players for them but that would cost a fortune,'
+Hypothesis: 'SpeakerB disagrees with SpeakerA about the market for 78 RPM records'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: True. Type: intent.
+"Conversation:
+A: 'Of course, there's not a whole lot of market for seventy-eight R P M records.'
+B: 'Is there not?  You, you'd, well you'd think there would be.'
+A: 'Well, the problem is most of the record players now will not play them because,'
+B: 'Well, that's true.'
+A: 'you have to have that needle, that, uh, particular kind of needle --'
+B: 'Oh, yeah.'
+A: '-- and, uh, they,'
+B: '[Breathing].'
+A: 'just won't play on a modern day, uh --'
+B: 'Well, that's a shame --'
+A: '-- phonograph.'
+B: '-- [Sniffing] because I, I, we go to antique stores a lot and you see seventy-eights,'
+A: 'Yeah.'
+B: 'a, a lot at, at the stores, a-, a-, at record stores, you'd,'
+A: 'Yeah.'
+B: 'think there'd be a market for, I'm, I'm sure you could find old players for them but that would cost a fortune,'
+Hypothesis: 'SpeakerB thinks there should be a market for 78 RPM records'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: True. Type: belief.
+"Conversation:
+A: 'Oh, yes, yes.  I guess I've had some good experience and some bad experience with them.'
+Hypothesis: 'SpeakerA has owned a credit card'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: True. Type: fact.
+"Conversation:
+B: 'Yeah, most of mine's been pretty good, although I'm, I guess I'm like a lot of other people, now, I'm trying to, to pay off my credit cards and, and, uh, I've done pretty good at it.  Yeah.'
+A: 'Uh-huh [noise].  Well, I do fairly good until I go in the store and I see something I want [laughter].'
+Hypothesis: 'SpeakerB tries to pay off credit cards frequently'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: True. Type: desire.
+"Conversation:
+B: 'Yeah, most of mine's been pretty good, although I'm, I guess I'm like a lot of other people, now, I'm trying to, to pay off my credit cards and, and, uh, I've done pretty good at it.  Yeah.'
+A: 'Uh-huh [noise].  Well, I do fairly good until I go in the store and I see something I want [laughter].'
+Hypothesis: 'SpeakerA sometimes buys things at the store'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: True. Type: fact.
+"Conversation:
+B: 'Yeah, most of mine's been pretty good, although I'm, I guess I'm like a lot of other people, now, I'm trying to, to pay off my credit cards and, and, uh, I've done pretty good at it.  Yeah.'
+A: 'Uh-huh [noise].  Well, I do fairly good until I go in the store and I see something I want [laughter].'
+Hypothesis: 'SpeakerA is an impulsive shopper'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: True. Type: belief.
+"Conversation:
+B: 'Yeah, most of mine's been pretty good, although I'm, I guess I'm like a lot of other people, now, I'm trying to, to pay off my credit cards and, and, uh, I've done pretty good at it.  Yeah.'
+A: 'Uh-huh [noise].  Well, I do fairly good until I go in the store and I see something I want [laughter].'
+Hypothesis: 'SpeakerB pays off credit cards daily'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: False. Type: fact.
+"Conversation:
+B: '-- and, uh, get back on a cash basis, except for gas.  It's too easy to, to run into the gas station.'
+Hypothesis: 'SpeakerB prefers to not use credit cards'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: True. Type: desire.
+"Conversation:
+B: '-- and, uh, get back on a cash basis, except for gas.  It's too easy to, to run into the gas station.'
+Hypothesis: 'SpeakerB uses credit cards on gas'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: True. Type: fact.
+"Conversation:
+B: '-- and, uh, get back on a cash basis, except for gas.  It's too easy to, to run into the gas station.'
+Hypothesis: 'SpeakerB fills her gas tank every day'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: False. Type: fact.
+"Conversation:
+B: '-- and, uh, get back on a cash basis, except for gas.  It's too easy to, to run into the gas station.'
+Hypothesis: 'SpeakerB thinks SpeakerA should use credit cards more often'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: False. Type: intent.
+"Conversation:
+A: 'But yeah, I've, I've talked to some who's really had some bad experience and kind of knock on wood I haven't yet, not bad.'
+B: 'Yeah, well that's,'
+A: 'You know, I just, I'm just shocked at the end of the month,'
+Hypothesis: 'SpeakerA talks to other people'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: True. Type: fact.
+"Conversation:
+A: 'But yeah, I've, I've talked to some who's really had some bad experience and kind of knock on wood I haven't yet, not bad.'
+B: 'Yeah, well that's,'
+A: 'You know, I just, I'm just shocked at the end of the month,'
+Hypothesis: 'SpeakerA sometimes has unexpected charges'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: True. Type: fact.
+"Conversation:
+A: 'But yeah, I've, I've talked to some who's really had some bad experience and kind of knock on wood I haven't yet, not bad.'
+B: 'Yeah, well that's,'
+A: 'You know, I just, I'm just shocked at the end of the month,'
+Hypothesis: 'SpeakerA has had bad credit card experiences'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: False. Type: belief.
+"Conversation:
+A: 'But yeah, I've, I've talked to some who's really had some bad experience and kind of knock on wood I haven't yet, not bad.'
+B: 'Yeah, well that's,'
+A: 'You know, I just, I'm just shocked at the end of the month,'
+Hypothesis: 'SpeakerB is often shocked at the end of the month'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: False. Type: fact.
+"Conversation:
+B: 'Well, I've been pretty lucky in that respect.  I don't charge, like I say, I've, I been trying to, to not charge except for emergencies.'
+Hypothesis: 'SpeakerB has a lot of money'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: False. Type: belief.
+"Conversation:
+B: 'Well, I've been pretty lucky in that respect.  I don't charge, like I say, I've, I been trying to, to not charge except for emergencies.'
+Hypothesis: 'SpeakerB tries to use his/her credit card only for emergencies'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: True. Type: desire.
+"Conversation:
+B: 'Well, I've been pretty lucky in that respect.  I don't charge, like I say, I've, I been trying to, to not charge except for emergencies.'
+Hypothesis: 'SpeakerB considers his/herself lucky'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: True. Type: belief.
+"Conversation:
+B: 'And, uh, so, but I haven't really had any bad problems with credit cards. There's, you know, they have, uh, wonderful features, they're there when you need them.'
+Hypothesis: 'SpeakerB hasn't had major problems with credit cards'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: True. Type: fact.
+"Conversation:
+B: 'And, uh, so, but I haven't really had any bad problems with credit cards. There's, you know, they have, uh, wonderful features, they're there when you need them.'
+Hypothesis: 'SpeakerB likes some of the features that come with credit cards'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: True. Type: belief.
+"Conversation:
+B: 'And, uh, so, but I haven't really had any bad problems with credit cards. There's, you know, they have, uh, wonderful features, they're there when you need them.'
+Hypothesis: 'SpeakerB uses credit cards all the time'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: False. Type: belief.
+"Conversation:
+A: 'And then they have bad drawbacks, too.'
+B: 'Yeah.  It's, #it's awfully easy.#'
+A: '#I mean high interest,# it's like paying twice.'
+Hypothesis: 'SpeakerA fears high interest'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: True. Type: belief.
+"Conversation:
+A: 'And then they have bad drawbacks, too.'
+B: 'Yeah.  It's, #it's awfully easy.#'
+A: '#I mean high interest,# it's like paying twice.'
+Hypothesis: 'SpeakerB easily gets high interest payments'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: False. Type: belief.
+"Conversation:
+B: 'And you don't have an annual fee there, and that helps.'
+A: 'Oh, yes.  Uh, we used to have, you know, like several, but right now, we're just more or less at American Express,'
+Hypothesis: 'SpeakerA uses mainly an American Express card'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: True. Type: fact.
+"Conversation:
+B: 'And you don't have an annual fee there, and that helps.'
+A: 'Oh, yes.  Uh, we used to have, you know, like several, but right now, we're just more or less at American Express,'
+Hypothesis: 'SpeakerB likes to avoid annual fees'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: True. Type: belief.
+"Conversation:
+B: 'And you don't have an annual fee there, and that helps.'
+A: 'Oh, yes.  Uh, we used to have, you know, like several, but right now, we're just more or less at American Express,'
+Hypothesis: 'SpeakerB often racks up annual fees'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: False. Type: fact.
+"Conversation:
+A: 'Do yo-, are you on a reg-, regular exercise program right now?'
+B: 'Yes, and I hate it [laughter].'
+Hypothesis: 'SpeakerB doesn't like her exercise program'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: True. Type: belief.
+"Conversation:
+A: 'Do yo-, are you on a reg-, regular exercise program right now?'
+B: 'Yes, and I hate it [laughter].'
+Hypothesis: 'SpeakerB hates exercise'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: False. Type: belief.
+"Conversation:
+A: 'Do yo-, are you on a reg-, regular exercise program right now?'
+B: 'Yes, and I hate it [laughter].'
+A: '[Laughter].'
+B: 'How about you?'
+A: 'Oh, well, I'm kind of off and on.'
+B: 'Off and on well, I guess I've been kind of off and on I've, uh,'
+A: 'Right now I'm kind of off.'
+Hypothesis: 'SpeakerA is not on a regular exercise program'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: True. Type: fact.
+"Conversation:
+B: 'Uh, I do walking on the treadmill, and then I do low impact aerobics.'
+A: 'Okay.  I guess you don't enjoy that very much.'
+B: 'Not, not really.'
+A: 'Do you find that, uh, to be boring?'
+B: 'Yeah, and time consuming, I mean it's not just the exercise that's boring and time consuming, it's, uh, you know, afterwards, you know, then you have to take a shower and get cleaned up, you know.'
+Hypothesis: 'SpeakerB finds her exercise program time-consuming'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: True. Type: belief.
+"Conversation:
+B: 'Uh, I do walking on the treadmill, and then I do low impact aerobics.'
+A: 'Okay.  I guess you don't enjoy that very much.'
+B: 'Not, not really.'
+A: 'Do you find that, uh, to be boring?'
+B: 'Yeah, and time consuming, I mean it's not just the exercise that's boring and time consuming, it's, uh, you know, afterwards, you know, then you have to take a shower and get cleaned up, you know.'
+A: 'Yeah.'
+Hypothesis: 'SpeakerA agrees that low impact aerobics and walking on the treadmill are boring and time consuming.'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: True. Type: intent.
+"Conversation:
+A: 'Well, I'm trying to get back in shape for softball this spring.'
+B: 'Oh, yeah.'
+A: 'But I,'
+B: 'Do you go through this, is this something that you go through every year [laughter].'
+A: 'Yeah, I haven't decided whether, whether I want to play yet or not I just bought myself a solo flex machine, I don't know if you've seen those advertised on T V.'
+Hypothesis: 'SpeakerA has not yet decided whether or not she will play Softball this year'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: True. Type: desire.
+"Conversation:
+A: 'Uh-huh, well, that's good.  Yeah, my parents have a treadmill it's, when I go visit them, uh, I get on that thing every now and then.'
+Hypothesis: 'SpeakerA uses her parents' treadmill'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: True. Type: fact.
+"Conversation:
+A: 'But, uh, yeah, I need to start jog something again.  I've always of that to be, uh, really one of the best forms of exercise, but it's terribly boring, and so I really don't ever keep a program up consistently.'
+Hypothesis: 'SpeakerA wants to start jogging again'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: True. Type: desire.
+"Conversation:
+B: 'I guess it worries me about jogging it's that I hear that it's very hard on your body and, and that, you know, you can end up getting hurt,'
+A: 'Yeah,'
+Hypothesis: 'SpeakerA agrees that jogging is hard on the body'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: True. Type: intent.
+"Conversation:
+A: 'You have to have the right,'
+B: 'so easy.'
+A: 'type of shoes too, that's,'
+B: 'Yeah.'
+A: 'very important.'
+B: 'Yeah.  I found that,'
+Hypothesis: 'SpeakerB agrees that the type of shoe is important'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: True. Type: intent.
+"Conversation:
+A: 'Yeah, I don't have to buy jogging shoes all to often my don't get very much use [laughter].'
+Hypothesis: 'SpeakerA does not have to buy jogging shoes very often because she does not go jogging that much'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: True. Type: belief.
+"Conversation:
+A: 'Yeah, I don't have to buy jogging shoes all to often my don't get very much use [laughter].'
+B: '[Laughter] Well, I guess my breakdown about, they say about every six months.'
+Hypothesis: 'SpeakerB needs new jogging shoes about every 6 months'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: True. Type: fact.
+"Conversation:
+A: 'I'm, I'm hoping that this, uh, solo flex will, uh, uh, change things a little bit, I really need to get on a regular type of program and use that thing on a consistent basis.'
+Hypothesis: 'SpeakerA is hoping that the solo flex will help her to create a regular type of program'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: True. Type: desire.
+"Conversation:
+A: 'Maybe if I can get interested in playing softball again this string I can, uh, start some type of, uh, regular program.'
+B: 'Yeah, that, that'll be good.'
+Hypothesis: 'SpeakerB is interested in starting a regular exercise program'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: False. Type: desire.
+"Conversation:
+A: 'uh, working out like that.  And that was very helpful we kept charts of our progress,'
+Hypothesis: 'SpeakerA and SpeakerB kept charts of their progress'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: False. Type: fact.
+"Conversation:
+A: 'uh, working out like that.  And that was very helpful we kept charts of our progress,'
+B: 'Uh-huh.'
+A: 'and, uh, consistently increased the empty of resistance so you could see how much you improved over the weeks.  I found that to be, uh, very helpful.'
+Hypothesis: 'SpeakerA finds that keeping track of exercise progress is helpful'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: True. Type: belief.
+"Conversation:
+B: '[Breathing] Well, I'm trying to get my tolerance now I just had surgery, um, less then two months ago, and right now I'm just a little over about a mile and a half,'
+A: 'Okay.'
+B: 'but I'm trying to workup to three miles.'
+Hypothesis: 'SpeakerB wants to run 3 miles'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: True. Type: desire.
+"Conversation:
+B: 'My walkman broke,'
+A: 'Yeah.'
+B: 'so I'm upset [laughter],'
+A: '[Laughter].'
+B: 'and I just have to turn to stereo up real loud [laughter].'
+A: 'Yeah.'
+B: '[Laughter].'
+A: 'But it's a lot less stressful on the joints then jogging is.'
+Hypothesis: 'SpeakerB thinks not having a walkman is less stressful'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: False. Type: belief.
+"Conversation:
+A: 'Um, do you go to an aerobics class or do you watch,'
+B: 'No, I,'
+A: 'on T V?'
+B: 'I just do it on T V,'
+A: 'Okay.'
+Hypothesis: 'SpeakerA goes to an aerobics class'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: False. Type: fact.
+"Conversation:
+B: 'Um, it's a, it's a tap-, I use tapes.'
+A: 'Oh, okay, okay, like a Cathy Smith workout,'
+B: 'Or, or Richard Simmons,'
+A: 'or Jane Fonda.'
+B: '[Laughter].'
+A: 'Okay [laughter].'
+B: 'Sweating to the oldies [laughter].'
+Hypothesis: 'Cathy Smith, Richard Simmons, and Jane Fonda workouts are oldies'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: True. Type: belief.
+"Conversation:
+A: 'Right.  I, ev-, every now and then I'll watch E S P N, I get cable on T V,'
+B: 'Uh-huh.'
+A: 'and they have, uh, a couple of shows called basic training, and, uh, what is the other one called.'
+Hypothesis: 'SpeakerA watches shows called Basic Training and What is the Other One Called'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: False. Type: fact.
+"Conversation:
+A: 'Right.  I, ev-, every now and then I'll watch E S P N, I get cable on T V,'
+B: 'Uh-huh.'
+A: 'and they have, uh, a couple of shows called basic training, and, uh, what is the other one called.'
+Hypothesis: 'cable TV has some aerobics shows'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: True. Type: fact.
+"Conversation:
+B: 'Are the-, yeah they're still, they're still, he's still doing it then, uh.'
+A: 'Yeah, every morning.'
+Hypothesis: 'SpeakerB did not know that they were still on every morning'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: True. Type: fact.
+"Conversation:
+B: 'Are the-, yeah they're still, they're still, he's still doing it then, uh.'
+A: 'Yeah, every morning.'
+B: 'I'll have to tune in.'
+Hypothesis: 'SpeakerB wants to watch an aerobics show'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: True. Type: desire.
+"Conversation:
+A: 'It's on E S P N, uh, at what time, I can't remember what time.  It's, uh, you know, I can't remember offhand what time.'
+B: 'I'll have to check it, check,'
+Hypothesis: 'SpeakerB will have to check what time the show is on ESPN'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: True. Type: desire.
+"Conversation:
+A: 'It's, it's hard topic because is, is, is it doing a good job or a bad job and you got to divide it two different categories whether you live in the city or whether you live in a more rural place like I do.'
+Hypothesis: 'SpeakerA lives in rural place'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: True. Type: fact.
+"Conversation:
+A: 'A-, actually I think that, I, higher level education, I don't think there's so much of a problem there.  It's pretty much funded well.  There are small colleges that I'm sure are struggling but, uh, it's the job that the, the high school and the grade schools are doing that I see, in a area like ours, our school, even a bad school is a good school up here, where, if I lived in New York City or Washington, D C, uh, I would seriously consider moving if I had a child.  I wouldn't let them go to a public school system there.  But, of course, people are trapped economically and they can't do that.'
+Hypothesis: 'SpeakerA wants to move to New York City'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: False. Type: desire.
+"Conversation:
+B: 'Yeah.  I know down here the school's are, you know, I don't know, they rate, I moved to Arkansas and Texas after living in Ohio and the schools down here rate, you know, bottom ten percent across the country and having been through grade school up there and coming down here to high school I can understand why.  Because they're so far behind and so poorly staffed, half the time the teachers don't know what's going on.'
+Hypothesis: 'SpeakerB moves to Ohio after living in Arkansas'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: False. Type: fact.
+"Conversation:
+B: 'Because we were so far advanced.  And, uh, you know, I'd been in a parochial school before junior high and, you know, even the public schools are behind the parochial schools.'
+A: 'Yeah.'
+Hypothesis: 'SpeakerA agrees with SpeakerB that parochial schools are better than public schools'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: True. Type: intent.
+"Conversation:
+A: 'Yeah, it's like if, if your father owns a grocery store and you're really interested in that, there's no reason that you should take college prep courses when you can get some --'
+B: '#Right.#'
+Hypothesis: 'SpeakerB's father owns a grocery store'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: False. Type: fact.
+"Conversation:
+B: 'Or if you're going to go the science route you can go to a target school that specializes in science or art.  You know, there's no point in, you know, I'm an engineering student and if I have to go take art classes, you know, I'm not going to use them.  And through high school I could have gone so much further if I'd gone to a school that was directed.'
+Hypothesis: 'SpeakerB is an engineering student'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: True. Type: fact.
+"Conversation:
+A: 'So when I went to my first year of tech school, I had a very easy time because our high school --'
+B: 'Right.'
+A: '-- had a, a good program.'
+Hypothesis: 'SpeakerA thinks that his high school had a good program'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: True. Type: belief.
+"Conversation:
+B: 'I think the schools today, you know, the public schools are just, they're just overrun, you know, they don't know what to do, there's too many kids and not enough teachers and too many of the kids don't care.'
+Hypothesis: 'SpeakerB thinks that public schools have too many teachers'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: False. Type: belief.
+"Conversation:
+A: 'So you have to go to a lesser engineering school.  We have a very good public school up here and a degree out there means a lot.  It's a very good school.  It's, it's University of Vermont.  Uh, we also have some two year college.  Well, there's a four year colleges.  They all have a pretty good reputation.  But, like you say, you,'
+Hypothesis: 'University of Vermont is not  a good public school'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: False. Type: belief.
+"Conversation:
+B: 'Well, like I told you before, (( )).  And you're talking about [throatclearing] credit cards.'
+A: 'Uh-huh.'
+B: 'We put ours up.  I mean I had a delightful evening one night cutting a bunch of those suckers up.'
+A: 'Um, I wish I had.'
+B: 'Well, you should try it.'
+Hypothesis: 'SpeakerA thinks SpeakerB should cut up his credit cards'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: False. Type: intent.
+"Conversation:
+A: 'Well, I, it was done for me after a while.  I had a, uh, I had a business going.  And [breathing] this was back in the eighties.  I don't know if you remember the gold and silver prices and all that.  But, uh, I had a coin shop, and everything was going great while gold and silver was up, and it started falling.'
+Hypothesis: 'SpeakerA had a business in the eighties'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: True. Type: fact.
+"Conversation:
+B: 'You lost your business?'
+A: 'Yep.'
+Hypothesis: 'The price of gold and silver stayed high'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: False. Type: fact.
+"Conversation:
+A: 'So I started paying expenses and stuff on my credit cards, and things got worse and worse, and finally, boom [laughter].'
+B: 'You lost your business?'
+A: 'Yep.'
+B: 'Oh, gol.  What a nightmare [laughter].'
+A: 'Yeah, it was. I ended up going into bank-, you know, it was one of those things [noise] uh, Oh, it'll get better next week, you know. [noise] Things will pick up.  And, so, there I was in old bankruptcy court.'
+B: 'Well, you weren't charging gold and silver were you?  You can't do that, can you?'
+A: 'Oh, yeah.'
+B: 'Oh, you can?'
+A: 'Oh, yeah, yeah.  I was buying from other dealers, and, uh, you know, they take payment any way they can get it.'
+Hypothesis: 'SpeakerB questions whether SpeakerA was able to buy gold and silver using credit'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: True. Type: intent.
+"Conversation:
+B: 'Well, I remember before I got married, you know when you graduate from college they'll send you all those --'
+Hypothesis: 'SpeakerB did not graduate from college'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: False. Type: fact.
+"Conversation:
+A: 'And, uh, course, I guess, I guess I've been purged from their records.  I used to have an American Express.  Uh, back when I had my business I got one.'
+Hypothesis: 'SpeakerA has American Express'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: False. Type: fact.
+"Conversation:
+A: 'Oh, yeah, yeah.  [childtalking] It's, um, well, of course on the green card you have to pay it when the bill comes in, so there isn't any.  But on the Optima card it's, um, let's see, right now it's running at about.  It's not too bad.  It's actually, it's about sixteen and a half percent, which is pretty good, [talking] as far as credit cards go.'
+Hypothesis: 'SpeakerA thinks 16% interest is not too high for credit cards'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: True. Type: belief.
+"Conversation:
+A: 'Plastic is just too easy, I mean --'
+B: 'Uh-huh.'
+A: '-- that's the, that's the whole problem with it.  Um,'
+Hypothesis: 'SpeakerA thinks the problem with credit cards are that they are too easy to use'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: True. Type: belief.
+"Conversation:
+B: 'Well, it makes you feel good when you whip out the #cash instead of your plastic.#'
+A: '#Yeah, exactly.#  I, I, uh, I just went out and got a new V C R yesterday #with cash.#'
+Hypothesis: 'SpeakerA and SpeakerB agree it feels good to pay with cash'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: True. Type: intent.
+"Conversation:
+B: 'Circuit City.  Have you been in there?'
+A: 'Yeah, they, they're not, their prices aren't that terrific.  They, they used to be, but they've gotten, they've got to pay for all that national advertising now.'
+B: 'Oh, it's national?'
+Hypothesis: 'SpeakerB thinks circuit city is a national chain'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: False. Type: fact.
+"Conversation:
+A: 'All righty [laughter].  Um, well, I, uh, have a four year old who will just be entering public school next year, so I'm really just starting to get involved in, uh, in what's out there and how they do things.  Um, as far as the system as a whole, I really don't see a problem with it.  I do see a problem with graduating people that, that can't read and are not, you know, productive in society or productive to themselves and, uh, I think that's the main problem at this point.  How about yourself?'
+Hypothesis: 'SpeakerA has a child'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: True. Type: fact.
+"Conversation:
+B: 'Well, in the norman-, in a normal route of way we do things, how about the ladies go first?'
+A: 'All righty [laughter].  Um, well, I, uh, have a four year old who will just be entering public school next year, so I'm really just starting to get involved in, uh, in what's out there and how they do things.  Um, as far as the system as a whole, I really don't see a problem with it.  I do see a problem with graduating people that, that can't read and are not, you know, productive in society or productive to themselves and, uh, I think that's the main problem at this point.  How about yourself?'
+Hypothesis: 'SpeakerB is female'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: False. Type: fact.
+"Conversation:
+B: 'So, uh, I mean, when you, when you take, uh, uh, professionals and put them in situations, they have to make decisions based on money to fund public education, and they can't get their finger out of their ear long enough to, to get that major subject in line, something's wrong.  So, I think here in Texas mainly that the, the, they're not serious, they're more serious about what the salary should be for senators than they are for what, how the level of education should be for children.  I have a one year old so I'm not, I'm more opinionated about the observations than, than the true facts, but,'
+Hypothesis: 'SpeakerB thinks people are more serious about the salaries of teachers than senators'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: False. Type: belief.
+"Conversation:
+B: 'All right.  I'm, live in Plano, Texas and, uh,'
+A: 'Uh-huh.'
+B: 'uh, today we're not even suppose to be in school because the, uh, the way the taxation and all that crap is, there really legally isn't any funding for the school systems in Texas today.'
+A: 'Right.'
+B: 'So, uh, I mean, when you, when you take, uh, uh, professionals and put them in situations, they have to make decisions based on money to fund public education, and they can't get their finger out of their ear long enough to, to get that major subject in line, something's wrong.  So, I think here in Texas mainly that the, the, they're not serious, they're more serious about what the salary should be for senators than they are for what, how the level of education should be for children.  I have a one year old so I'm not, I'm more opinionated about the observations than, than the true facts, but,'
+A: 'Uh-huh.'
+B: 'it's just a shame to me that, that the, our firemen, our policemen, and school teachers are the three least paid utilities, um, that have the biggest impact to our well-being.'
+Hypothesis: 'Teachers, firefighters, and policemen are the three lowest paid utilities in texas'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: True. Type: fact.
+"Conversation:
+B: 'it's just a shame to me that, that the, our firemen, our policemen, and school teachers are the three least paid utilities, um, that have the biggest impact to our well-being.'
+Hypothesis: 'SpeakerB believes teachers, firefighters, and policemen have a large impact on people's well-being'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: True. Type: belief.
+"Conversation:
+B: 'uh, verses having her go down here and not learn anything, and then, uh, so I'm, (( )) my opinion I think there's a big concern hope, hopefully the new, uh, education, secretary of education will do something to fix the problem but, uh, I don't know, they've got to quit worrying about, uh, the, uh, religious, uh, overtones in our textbooks and get on with teaching the product.'
+Hypothesis: 'SpeakerB believes people should focus more on the religious overtones of textbooks'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: False. Type: desire.
+"Conversation:
+B: 'Ha-, they don't even, a lot of the school systems don't even, uh, the kids nowadays don't even know what, what the president's fitness education program is all about,'
+Hypothesis: 'SpeakerB thinks that a lot of kids nowadays do not know about the Presidents fitness education program'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: True. Type: belief.
+"Conversation:
+B: 'they don't have to do sit-ups and push-ups and all that crap we had to do when we were going to school.'
+Hypothesis: 'SpeakerB did not have to do sit ups and push ups in school'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: False. Type: fact.
+"Conversation:
+B: 'And, yeah, and, uh, I talked to a thirteen year old last night who's, uh, goes to, uh, one of the Plano high schools or junior highs, I guess, and she said that she had a choice, she could either have taken tennis, or weight lifting so she choice to take weight lifting,'
+Hypothesis: 'SpeakerB talked to a girl who takes tennis at school'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: False. Type: fact.
+"Conversation:
+B: 'They need to put some sternness back into the, into the teachers and let them be able to, uh, get the old whip out and get some discipline.'
+Hypothesis: 'SpeakerB thinks more discipline is required in schools'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: True. Type: desire.
+"Conversation:
+B: 'I used to date a girl who taught English at ninth grade level.'
+Hypothesis: 'SpeakerB used to date a girl who taugth english at a tenth grade level'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: False. Type: fact.
+"Conversation:
+B: 'I used to date a girl who taught English at ninth grade level.'
+A: 'Uh-huh.'
+B: 'I mean, I was absolutely flabbergasted at what, they wo-, what she was paid.  True, she was young, you know, but still it's the principle.'
+A: 'Right.'
+B: 'Of course, if she got her Masters degree it would all be different.  But, uh,'
+Hypothesis: 'SpeakerB believes teachers with masters degrees are better paid'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: True. Type: belief.
+"Conversation:
+A: 'Run on that then, no income taxes in Texas, huh?'
+Hypothesis: 'There are no income taxes in Texas'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: False. Type: fact.
+"Conversation:
+A: 'I'm in Texas too, so,'
+Hypothesis: 'SpeakerA is from Texas'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: True. Type: fact.
+"Conversation:
+A: 'Okay, um, I guess, um, this is probably really a good subject for me because I really like to do, uh, hand work.  Uh, mostly I do needlepoint, I guess.'
+Hypothesis: 'SpeakerA likes to do needlework'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: True. Type: belief.
+"Conversation:
+B: 'What kinds of things have you done?'
+A: 'Um, well, I've made a lot of baby gifts [laughter].'
+B: 'Uh-huh.'
+Hypothesis: 'SpeakerB has made baby gifts'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: False. Type: fact.
+"Conversation:
+A: 'Um, well, I've made a lot of baby gifts [laughter].'
+B: 'Uh-huh.'
+A: 'It seem like that's, like, especially lately there's been so many babies, [laughter] that, uh, bibs and blankets, and things like that.  Wall hangings, um,'
+Hypothesis: 'SpeakerA lot of babies have been born to SpeakerA's acquaintances lately'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: True. Type: belief.
+"Conversation:
+A: 'It seem like that's, like, especially lately there's been so many babies, [laughter] that, uh, bibs and blankets, and things like that.  Wall hangings, um,'
+B: 'Do you ever keep any of your stuff?'
+A: 'Isn't that funny.  No [laughter].'
+Hypothesis: 'SpeakerA thinks that keeping what she made is funny'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: False. Type: belief.
+"Conversation:
+B: 'I do crochet and a lot of, uh, things like that, and I have very little of my own stuff, and it's kind of embarrassing.  People say let me see some of your work.'
+Hypothesis: 'SpeakerB does crochet'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: True. Type: fact.
+"Conversation:
+A: 'Yeah, [laughter] isn't that funny.  I guess I do have one thing.  A friend of mine gave me a clock kit --'
+B: 'Ooh.'
+A: '-- and, I, I needlepointed the face, and I, uh, kept that because she gave me that.  So,'
+Hypothesis: 'SpeakerA's friend gave her a face to crochet'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: False. Type: fact.
+"Conversation:
+B: 'I did some needlepoint years ago, and then I got into the Bargello.'
+A: 'Oh, what's that?'
+B: 'Well, it's an Italian, um, needlework, using, using the uh, I started to say the canvas, but the, uh, huh, what kind of cloth uses that.  I, I've just gone blank.  But it's used with yarn, and it usually takes long stitches over two or three openings in the cloth --'
+Hypothesis: 'The Bargello is used with yarn'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: True. Type: fact.
+"Conversation:
+B: 'I did some needlepoint years ago, and then I got into the Bargello.'
+A: 'Oh, what's that?'
+B: 'Well, it's an Italian, um, needlework, using, using the uh, I started to say the canvas, but the, uh, huh, what kind of cloth uses that.  I, I've just gone blank.  But it's used with yarn, and it usually takes long stitches over two or three openings in the cloth --'
+A: 'Huh.'
+B: '-- and you weave intricate patterns and use different colors.  Like it could be a flame stitch where so rather than drawing a picture you're making a design like a geometric or whatever, and it was used quite often in the colonial times to, uh, uh, to upholster chairs, and so forth, as well as the crewel, um, embroidery work that was done on them.'
+Hypothesis: 'Bargello was used to upholster chairs'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: True. Type: fact.
+"Conversation:
+B: 'What I did, when I was doing that was mostly pillows, you know, for sofas and so forth, and I can't find one that I've done.'
+Hypothesis: 'SpeakerB made pillows'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: True. Type: fact.
+"Conversation:
+B: 'What I did, when I was doing that was mostly pillows, you know, for sofas and so forth, and I can't find one that I've done.'
+Hypothesis: 'SpeakerB's pillows are for a bed'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: False. Type: fact.
+"Conversation:
+B: 'What I did, when I was doing that was mostly pillows, you know, for sofas and so forth, and I can't find one that I've done.'
+A: 'Oh.'
+B: 'It's one of those things I did-, I didn't give them away, but I didn't know if it's been my color choice or multiple moves --'
+A: 'Yeah,'
+B: '-- or, or what, and it, I was so proud of them when I [laughter] got them finished, but I have no idea where they are.'
+Hypothesis: 'SpeakerB moved after he made the pillows'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: True. Type: fact.
+"Conversation:
+B: 'Bargello.  It's B, A, R, G, E, double L, O {spells out the word}'
+A: 'Huh.  That's, I've never heard of that before.  I've probably seen it, though,'
+Hypothesis: 'SpeakerA has never heard of Bargello'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: True. Type: fact.
+"Conversation:
+A: 'Yeah.  I mean, when you described it, it sounded like something, you know, that would be around, I guess.  But, I've never heard of it before, and it's really interesting.  Um, I guess I've decorated baskets and stuff before in the past, but I've kind of gotten out of that.  I use to do a lot more and sell at craft shows.'
+B: 'Me, too.'
+Hypothesis: 'SpeakerB used to sell at craft shows'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: True. Type: fact.
+"Conversation:
+B: 'How did you know to choose this subject, tonight.  That's funny [laughter]. What, how did you, what kinds of decorations did you use with the bas-, how were you decorating the baskets?'
+A: 'Oh, basically bows and lace --'
+B: 'Um.'
+A: '-- uh, ribbons.  Um. I really wanted to do, you know, so many of them now have the ribbons where, I'm not sure how they do it, but the ribbons, they make them, they like.  I don't know how to explain it.  They make them hard, you know?'
+B: 'Like fabric that's been stiffened.'
+Hypothesis: 'SpeakerB uses stiffened fabric while decorating the baskets'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: False. Type: fact.
+"Conversation:
+B: 'How did you know to choose this subject, tonight.  That's funny [laughter]. What, how did you, what kinds of decorations did you use with the bas-, how were you decorating the baskets?'
+A: 'Oh, basically bows and lace --'
+B: 'Um.'
+A: '-- uh, ribbons.  Um. I really wanted to do, you know, so many of them now have the ribbons where, I'm not sure how they do it, but the ribbons, they make them, they like.  I don't know how to explain it.  They make them hard, you know?'
+B: 'Like fabric that's been stiffened.'
+A: 'Yeah.'
+B: 'Yes.'
+A: 'I've never done that, and those are so neat.  I mean, I would really like to do those but,'
+B: 'I've seen some, and there, there, they, I suspect they're fairly simple, because the one lady I've seen, I know that does it, I've never asked her any questions, but she has three kids all under the age of like six.'
+A: 'Um.'
+Hypothesis: 'SpeakerA didn't know how to stiffen ribbons'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: True. Type: fact.
+"Conversation:
+B: 'I've seen some, and there, there, they, I suspect they're fairly simple, because the one lady I've seen, I know that does it, I've never asked her any questions, but she has three kids all under the age of like six.'
+A: 'Um.'
+B: 'And, and they're all a handful. So it's got to be something she can do fairly easily --'
+A: 'Oh, definitely, yeah.'
+Hypothesis: 'The lady's questions are a handful'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: False. Type: belief.
+"Conversation:
+B: '-- and fairly quickly.  When I do, um, crochet, it's usually the lacy Victorian type --'
+A: 'Oh.'
+B: '-- things like that, and I stiffen those with a, a glue mixture.  It's like white glue, and it may be something similar to that that the fabric is dipped in and then, um, allowed to dry in those, those draping bows, I mean, those draping streamers.'
+Hypothesis: 'SpeakerB stiffens her crochet with a glue mixture'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: True. Type: fact.
+"Conversation:
+B: 'I don't know.  I was just.  There's bound to be some kind of fabric stiffener like that that's very similar --'
+A: 'Yeah.'
+B: '-- that's not going to melt too much with, uh, uh, high humidity,'
+A: 'That's --'
+B: 'in a room,'
+A: '-- I think that's what my concern was, was it really sure, and how they would, how they would last.'
+Hypothesis: 'SpeakerA did not make the stiffened ribbons because she was worried how long they would last.'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: True. Type: fact.
+"Conversation:
+B: '[Laughter] So many of my crafts, well, right now I'm looking at a little quilted, uh, uh, hanging, it's, like, it's a flag, and I don't want to wash it, because that would start breaking down the batting and so forth, but it's such a dust collector to be out, and so forth.'
+A: 'Yeah [laughter].'
+Hypothesis: 'SpeakerA's things are dust collectors'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: False. Type: belief.
+"Conversation:
+A: 'That's funny [laughter].  No, I do some, I have really gotten out of it. I don't do it quite as much as I used to.  Um, I guess because I, I went back to school, so I don't have as much time.'
+Hypothesis: 'SpeakerA graduated college before'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: False. Type: fact.
+"Conversation:
+A: 'No, and I have two children also [laughter].'
+Hypothesis: 'SpeakerA is a parent'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: True. Type: fact.
+"Conversation:
+A: 'No, and I have two children also [laughter].'
+B: 'You definitely don't have time.'
+A: 'It keeps me very busy.  But I really enjoy it when I do do it, when I get the chance, you know.  It's really, it's so relaxing to just sit, and, but once I get started, I can't put it down.  I just,'
+Hypothesis: 'SpeakerA's children keep her busy'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: True. Type: belief.
+"Conversation:
+A: 'That's funny [laughter].  No, I do some, I have really gotten out of it. I don't do it quite as much as I used to.  Um, I guess because I, I went back to school, so I don't have as much time.'
+B: 'Oh, you don't have time.'
+A: 'No, and I have two children also [laughter].'
+B: 'You definitely don't have time.'
+A: 'It keeps me very busy.  But I really enjoy it when I do do it, when I get the chance, you know.  It's really, it's so relaxing to just sit, and, but once I get started, I can't put it down.  I just,'
+B: 'I have a similar problem.  I've got to have time or I don't even want to get into it in the first place.'
+A: 'Uh-huh.  Uh-huh.'
+Hypothesis: 'SpeakerA does not do crafts often because she has less time'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: True. Type: belief.
+"Conversation:
+A: 'I know, I started a project, it's been over a year ago [laughter] that I swore I was going to finish for somebody for Christmas.'
+Hypothesis: 'SpeakerA plans to finish the project by Christmas'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: False. Type: desire.
+"Conversation:
+B: 'And so I've got to have total, almost total silence.  I can't really watch television if the pattern is very intricate.  It sounds like you'd have lots of shading --'
+A: 'Uh-huh.'
+B: '-- on that particular piece.'
+A: 'Yep.'
+Hypothesis: 'SpeakerA agrees that there would be shading if the television was on'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: False. Type: intent.
+"Conversation:
+B: 'Um, a lot, well, the last movie I saw, but it wasn't my choice, was the NINJA TURTLE movie [laughter].'
+A: '[Laughter] Obviously you have kids.'
+B: '[Laughter] That's right.  Yeah, but my preference is the one we saw before that was SILENCE OF THE LAMBS.'
+Hypothesis: 'SpeakerB prefers SILENCE OF THE LAMBS to the NINJA TURTLE movie'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: True. Type: desire.
+"Conversation:
+A: 'Um, the last movie I saw was, uh, SLEEPING WITH THE ENEMY.'
+B: 'Oh, was that good.  I heard,'
+A: 'Uh, see, I'm not a big Julie Roberts fan.'
+B: 'Oh, okay.'
+A: 'But I was a lot, I was a lot more impressed with her than I thought I would be.'
+B: 'Well, that's good.'
+A: 'It turned out to be a better thriller than I was expecting it to be.'
+Hypothesis: 'SpeakerA was more impressed with SLEEPING WITH THE ENEMY than she thought'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: True. Type: belief.
+"Conversation:
+A: 'In fact, people I've talked to said that they hadn't slept real good for a while afterwards.  So [laughter],'
+Hypothesis: 'There is lots of sleep deprivation in SpeakerA's neighborhood'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: False. Type: belief.
+"Conversation:
+A: 'Is that any good, I mean, I'm sure I'm going to be seeing it because in a week to Amarillo where my sister lives, and she's got two boys that I took to see the first one.'
+Hypothesis: 'SpeakerA expects to take her sister's boys to see the next one'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: True. Type: desire.
+"Conversation:
+B: 'Amarillo.  I didn't see the first one.  My husband said it was, um, about the same lines.'
+Hypothesis: 'SpeakerB did not see the first Amarillo'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: False. Type: fact.
+"Conversation:
+B: 'You know what I mean.  It wasn't, my daughter's five, I mean she understood everything.  She goes to almost all movies with us except, you know, R rated. And she really enjoyed it, but it was on a higher level, you know, where there were some things that kids didn't understand that adults did, and I liked that.'
+Hypothesis: 'SpeakerB's daughter has a five'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: False. Type: fact.
+"Conversation:
+B: 'You know what I mean.  It wasn't, my daughter's five, I mean she understood everything.  She goes to almost all movies with us except, you know, R rated. And she really enjoyed it, but it was on a higher level, you know, where there were some things that kids didn't understand that adults did, and I liked that.'
+Hypothesis: 'SpeakerB's daughter liked that she did not understand everything'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: False. Type: belief.
+"Conversation:
+A: 'Yeah, I think that's important if you're going, you know, if you're going, uh, kids are going to, uh, parents are going to have to go --'
+B: 'Right.'
+A: '-- you ought to make it at least semi-,'
+B: '[Laughter].'
+A: 'you know, semi for them too.'
+B: 'That's right, that's right.'
+Hypothesis: 'SpeakerB agrees with SpeakerA that they should be made semi for parents too'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: True. Type: intent.
+"Conversation:
+B: 'So, if and when we ever get a baby-sitter, like we did with SILENCE OF THE LAMBS, we go see it.'
+Hypothesis: 'If SpeakerB and her husband get a baby-sitter, they go see SILENCE OF THE LAMBS'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: False. Type: desire.
+"Conversation:
+A: 'Do you take her, or do you go to a lot of comedy movies or to,'
+B: 'Yeah, yeah.'
+Hypothesis: 'SpeakerB takes her daughter to comedies'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: True. Type: fact.
+"Conversation:
+B: '[Whispering] {sort of to herself} Oh gosh what was the last comedy we saw? {back to regular speech} Huh, huh, huh.  Good question, [laughter] good question.  We don't get to go that often, but something on the tip of my tongue, and I can't think of which one it was.  Uh.  Gosh, I can't remember.'
+Hypothesis: 'SpeakerB cannot remember what the last comedy she saw was'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: True. Type: fact.
+"Conversation:
+A: '-- I said that wrong, the last movie I saw was THE HARD WAY with Michael J. Fox.'
+B: 'But that, that sounds good.'
+Hypothesis: 'SpeakerB thinks Michael J. Fox sounds good'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: False. Type: belief.
+"Conversation:
+A: 'And James Woods, I think is who it was, did an excellent job as the cop.  I mean, #you know, he just,#'
+B: '#Yeah, I like him.#'
+A: 'Yeah, and there were, there were some definite, um, should I say, tense moments,'
+Hypothesis: 'James Woods is tense'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: False. Type: belief.
+"Conversation:
+A: 'Yes, I, I, I had seen it before Christmas, but I took a date to it, uh, about a month ago.  So, I, I, I've seen it the second time not too long ago. So.'
+B: 'It was really cute.'
+A: 'I really enjoyed it.'
+B: '[Laughter].'
+A: 'Of course, the bad thing about it was, uh, the second time I saw it, I didn't really enjoy it as much, and I was kind of surprised at that.  I thought that would be one of those that I would love to watch over and over.'
+Hypothesis: 'SpeakerA was disappointed in HOME ALONE the second time she saw it'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: True. Type: belief.
+"Conversation:
+B: 'I do too.  I mean, they are just slapstick {word drawn out for emphasis}.'
+A: 'Oh, yeah.'
+B: 'It, you have to see those twice to catch everything.'
+A: 'Well, you have to see them more than that.'
+Hypothesis: 'You have to see slapstick movies many times before you understand everything'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: True. Type: belief.
+"Conversation:
+B: '-- to see a movie.  It, it's just getting so expensive.'
+Hypothesis: 'Seeing movies is expensive'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: True. Type: belief.
+"Conversation:
+B: 'I don't understand why they charge you out the kazoo for both.  You know popcorn is not that expensive.'
+Hypothesis: 'Movie theaters charge kazoos'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: False. Type: belief.
+"Conversation:
+A: '-- of like when the buffalos are, when they're chasing the buffalos and everything --'
+B: 'Uh-huh.'
+A: '-- you've got to be where you feel it.'
+Hypothesis: 'SpeakerA thinks you have to be where the buffalos are'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: False. Type: intent.
+"Conversation:
+A: 'I would, I mean, I guess my first instinct was to wait for the video, too. But I'm glad I didn't.  I really and truly am.  I mean, that mov-, that was one movie I came out impressed.'
+Hypothesis: 'SpeakerA is glad that she saw it in theatres rather then waiting for the video'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: True. Type: belief.
+"Conversation:
+A: 'I would, I mean, I guess my first instinct was to wait for the video, too. But I'm glad I didn't.  I really and truly am.  I mean, that mov-, that was one movie I came out impressed.'
+B: 'Uh-huh.'
+A: 'I really and truly did.  I mean, I have absolutely no problems with them winning seven Oscars.  None at all.'
+Hypothesis: 'DANCES WITH WOLVES won 7 oscars'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: True. Type: fact.
+"Conversation:
+A: 'I really and truly did.  I mean, I have absolutely no problems with them winning seven Oscars.  None at all.'
+B: 'Right.'
+A: 'Normally I'm one of these people that I don't like one, one movie taking all the honors.'
+Hypothesis: 'Ordinarily, SpeakerA would not have liked that one movie received seven oscars'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: True. Type: belief.
+"Conversation:
+A: 'It, it's just the idea that there is this one spot where the white man has come by and killed a bunch a buffalo and just stripped its hide, the hides. So there's,'
+B: 'See, that's the one, that is the honest to God the one reason I don't want to see the movie --'
+A: 'Yeah, but, well,'
+B: '-- is because I love buffalos for some weird reason, [laughter] and I know they're fake.'
+Hypothesis: 'SpeakerB does not want to see the movie because she doesn't want to see the buffalos get hurt'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: True. Type: desire.
+"Conversation:
+A: 'And, and, of course, and, well, yeah, that, and plus, I mean part of it is the idea that he goes with them on a buffalo hunt.  So, I mean, they are killing buffalos in it.  But they don't stress that very much, they really don't.'
+Hypothesis: 'SpeakerA says that SpeakerB goes on a buffalo hunt'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: False. Type: fact.
+"Conversation:
+B: '{Whispering} I know it {regular voice}.  Isn't that ridiculous.  We have cable which --'
+A: 'Oh, I do too.'
+B: '-- helps a lot [laughter].'
+A: 'Yeah, but not enough.'
+Hypothesis: 'SpeakerA believes that cable is not enough'
+Please analyze the conversation and check whether the hypothesis is true and identify the type of entailment.",Entailment: True. Type: belief.
